@@ -304,3 +304,11 @@ h2::after {
   padding-left: 25px;
   padding-bottom: 10px;
 }
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
