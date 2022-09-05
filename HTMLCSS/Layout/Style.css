@@ -1,0 +1,306 @@
+/* *{ border-top:8px solid #255;} */
+/* *{ padding:0px;
+margin:0px;} */
+
+.container {
+  width: 800px;
+  margin: 0px auto;
+}
+
+.main-head {
+  font-weight: bold;
+  background-color: rgb(219, 219, 219);
+  /* padding-left: 12.53px; */
+  padding: 20px 10px;
+  margin-top: 10px;
+
+  border-top: 10px solid blue;
+}
+
+/* h3{ font-size:24px;
+                  font-style:italic;
+                   text-transform:uppercase  */
+
+.post-header {
+  /*position:relative; */
+  margin: 7px;
+}
+
+body {
+  /* color: rgb(47, 69, 102); */
+
+  font-family: sans-serif;
+
+  /* border-top: 12.45px solid rgb(247, 164, 70); */
+
+  position: relative;
+}
+
+aside {
+  padding-left: 40px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  margin-right: 350px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+li {
+  font-family: sans-serif;
+}
+
+h3,
+h4 {
+  color: #0e7205;
+  background-color: rgba(96, 87, 104, 0.74);
+}
+
+footer p {
+  font-size: 16px;
+  color: purple;
+  background-color: #f3b4c0;
+}
+article header p {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 20px;
+  /* padding-top: 7px; */
+  text-transform: uppercase;
+  /* font-style: oblique; */
+  font-weight: 150;
+  margin-left: 15px;
+  /* color: #934893; */
+}
+h2 {
+  font-size: 39px;
+
+  padding: 8px 0px;
+  margin-bottom: 12px;
+
+  font-style: italic;
+  /* background-color: rgba(247, 167, 204, 0.6); */
+  position: relative;
+}
+
+h3 {
+  font-size: 24px;
+  font-style: italic;
+  text-transform: uppercase;
+  padding-left: 10px;
+  margin-right: 10px;
+}
+
+h4 {
+  font-size: 25px;
+  font-display: inherit;
+
+  text-align: center;
+}
+
+h5 {
+  font-size: 34px;
+  background-color: rgba(88, 255, 82, 0.4);
+}
+
+article p {
+  padding-left: 12px;
+  padding-right: 14px;
+  margin-bottom: 5px;
+}
+
+/* header p {
+  padding-left: 0px;
+  margin-bottom: 0px;
+} */
+
+ul,
+ol {
+  padding-left: 16px;
+  margin-right: 6px;
+}
+
+article header p {
+  text-transform: uppercase;
+}
+
+.related-author {
+  list-style: none;
+}
+
+#copyright {
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* .main-head{
+                        background-color:#00ec33;
+                            */
+
+aside p {
+  text-align: left;
+  font-size: 16px;
+  text-transform: sans-serif;
+  font-weight: bold;
+
+  background-color: #ecbebe;
+}
+
+aside {
+  background-color: #bce0e977;
+  border-top: 4px dashed #f50909ad;
+  border-right: 8px solid #567890;
+  border-left: 8px solid #236194;
+}
+
+body {
+  /* background-color: #dd916285; */
+}
+
+/* .first-li{ */
+/* color:#e4d616; */
+/* display:inline;  */
+
+li:first-child {
+  color: #0004ff;
+}
+li:nth-child(2) {
+  color: #9c0d50;
+}
+li:nth-child(3) {
+  font-weight: bolder;
+  color: #250202;
+}
+li:nth-child(4) {
+  font-weight: lighter;
+  color: #f00101;
+}
+li:nth-child(5) {
+  color: #f04400;
+}
+
+article p:last-child {
+  color: #00743a;
+  font-style: italic;
+}
+
+a:link {
+  color: #ffa600dc;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 6px 12px;
+}
+
+a:visited {
+  color: #ffa600dc;
+}
+
+a:hover {
+  color: #720000;
+  text-decoration: dashed #ff0000;
+
+  font-weight: bold;
+}
+
+a:active {
+  background-color: #c27373;
+  font-style: italic;
+  /*          for web links a:lvha                                            */
+}
+/* confliting resolve site
+         id selector will priortise
+         then class last selector after that elements will use
+         
+       */
+/* #copyright{
+               color:orangered;
+         }
+
+         .copyright{
+               color:blueviolet
+         }
+
+         .text{
+              color:#00ec33;
+         }
+
+         footer p{
+               color:grey;
+         } */
+
+.post-img {
+  width: 50px;
+  height: 50px;
+}
+.post-img2 {
+  width: 230px;
+  height: 200px;
+  margin-left: -470px;
+  margin-top: 60px;
+}
+
+.post3-img {
+  width: 356px;
+  height: 236px;
+}
+
+nav a:link {
+  background-color: #934893;
+  padding: 0px;
+  margin-bottom: 8px;
+  display: inline-block;
+
+  /* display:in10line; */
+  display: inline-block;
+}
+
+button {
+  font-size: 19px;
+  padding: 7;
+  cursor: pointer;
+  position: absolute;
+  bottom: 20;
+  right: 275;
+}
+
+/* pseudo element */
+
+h2::first-letter {
+  font-size: 40px;
+  font-style: normal;
+  padding-right: 0;
+}
+
+p::first-line {
+  color: rgb(77, 80, 80);
+  /* background-color:#250202; */
+}
+
+h2::after {
+  content: "GOD🎀";
+  background-color: #e7cbd8;
+  margin-left: 150px;
+  padding: 2px;
+  font-weight: bold;
+  font-size: 20px;
+  display: inline-block;
+  position: absolute;
+  top: 10;
+  right: 2;
+}
+/* layout sec- */
+
+.post-img {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.author {
+  float: left;
+  padding-left: 25px;
+  padding-bottom: 10px;
+}
