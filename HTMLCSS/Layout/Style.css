@@ -3,7 +3,7 @@
 margin:0px;} */
 
 .container {
-  width: 800px;
+  width: 900px;
   margin: 0px auto;
 }
 
@@ -61,7 +61,7 @@ h4 {
 footer p {
   font-size: 16px;
   color: purple;
-  background-color: #f3b4c0;
+  /* background-color: #f3b4c0; */
 }
 article header p {
   font-weight: bold;
@@ -239,7 +239,7 @@ a:active {
 .post-img2 {
   width: 230px;
   height: 200px;
-  margin-left: -470px;
+  margin-left: -450px;
   margin-top: 60px;
 }
 
@@ -286,11 +286,11 @@ h2::after {
   margin-left: 150px;
   padding: 2px;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 17px;
   display: inline-block;
   position: absolute;
-  top: 10;
-  right: 2;
+  top: 1;
+  right: -40;
 }
 /* layout sec- */
 
@@ -308,7 +308,30 @@ h2::after {
 h1 {
   float: left;
 }
-
+ 
 nav {
   float: right;
+}
+
+/* .clear {
+  clear: both;
+} */
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+article {
+  background-color: #0e7205;
+  width: 900px;
+  /* float: left; */
+}
+aside {
+  background-color: #250202;
+  width: 300px;
+  /* float: right; */
+}
+footer {
+  background-color: #236194;
 }
