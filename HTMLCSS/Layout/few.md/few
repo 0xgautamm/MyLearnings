@@ -1,0 +1,42 @@
+<article class="full">
+  <h1 class="title">Converse Chuck Taylor All Star Low Top</h1>
+
+  <img
+    class="post-img"
+    src="https://images.unsplash.com/photo-1495395226200-8fbf6b720b8c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=697&q=80"
+    alt="forest"
+    height="150"
+    width="220"
+  />
+
+  <div class="product-info">
+    <p class="price"><strong>$547</strong></p>
+
+    <P class="shipping">Free shipping</P>
+
+    <p class="sale">SALE</p>
+    <p class="description">
+      Ready to dress up or down ,these classic canvas chuks are an everyday
+      wardrobe staple.
+    </p>
+
+    <a class="more-info" href="#">More information &rarr; </a>
+    <div class="colors">
+      <div class="color"></div>
+      <div class="color-R"></div>
+      <div class="color-B"></div>
+      <div class="color-V"></div>
+    </div>
+  </div>
+
+  <div class="product-details">
+    <h2>Product details</h2>
+
+    <ul class="details-list">
+      <li>Lightweight, durable canvas sneakers</li>
+      <li>Lightly padded footbed for added comfort</li>
+      <li>Iconic Chucks Taylor ankle patch</li>
+    </ul>
+  </div>
+  <button class="cart">Add to cart</button>
+</article>
