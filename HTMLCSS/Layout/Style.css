@@ -360,3 +360,18 @@ footer {
   display: block;
   margin-bottom: 5px;
 }
+
+.row {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+article {
+  width: 900px;
+  /* margin-top: 25px; */
+}
+
+aside {
+  width: 300px;
+  margin-top: 25px;
+}
