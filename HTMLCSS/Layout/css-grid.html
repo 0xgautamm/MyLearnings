@@ -61,6 +61,7 @@
         /* gap: 30px; */
         row-gap: 20px;
         column-gap: 40px;
+        display: none;
       }
 
       .container--2 {
@@ -68,13 +69,24 @@
         font-family: sans-serif;
         background-color: black;
         font-size: 40px;
-        margin: 100px;
+        margin: 40px;
 
-        width: 1000px;
+        width: 700px;
         height: 600px;
 
         /* CSS GRID */
-        display: none;
+        display: grid;
+        gap: 30px;
+        grid-template-columns: 125px 200px 125px;
+        grid-template-rows: 250px 200px;
+        justify-content: center;
+        align-content: space-between;
+        align-items: start;
+        justify-items: start;
+      }
+      .el--3 {
+        align-self: end;
+        justify-self: end;
       }
     </style>
   </head>
