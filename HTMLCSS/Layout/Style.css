@@ -332,7 +332,7 @@ footer {
 
 /* flexbox  */
 
-.main-head {
+/* .main-head {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -368,10 +368,32 @@ footer {
 }
 article {
   width: 900px;
-  /* margin-top: 25px; */
+   margin-top: 25px; 
 }
 
 aside {
   width: 300px;
   margin-top: 25px;
+} */
+
+/* css grid */
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  column-gap: 50px;
+  row-gap: 20px;
+  align-items: start;
+}
+.main-head {
+  grid-column: 1 / -1;
+}
+.article {
+}
+
+.aside {
+}
+
+.footer {
+  grid-column: 1 / -1;
 }
