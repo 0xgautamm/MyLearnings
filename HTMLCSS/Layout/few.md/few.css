@@ -12,12 +12,15 @@
     font-weight:bold;
     margin:50px auto;
      position:relative;
+     display:grid;
+     grid-template-columns:220px 1fr 1fr ;
+     gap:20px;
   } 
   
   .title{text-transform:uppercase;
           color:green;
         background-color:yellow;
-          width:801px;
+        grid-column:1/-1;     width:801px;
     text-align:center; padding:12px;
   }
   h2{text-transform:uppercase;
