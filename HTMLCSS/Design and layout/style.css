@@ -91,7 +91,7 @@ header {
 }
 
 h1 {
-  margin-bottom: 24px;
+  margin-bottom: 50px;
   font-size: 44px;
   line-height: 1.2;
   letter-spacing: -1px;
@@ -116,7 +116,7 @@ img {
   stroke: #087f5b;
   width: 35px;
   height: 35px;
-  margin: 24px;
+  margin-bottom: 24px;
 }
 
 .chair-icon {
@@ -158,6 +158,9 @@ img {
 .testimonial-text {
   font-style: italic;
   margin-bottom: 24px;
+}
+.testimonial-author {
+  color: #e6fcf5;
 }
 
 /* CHAIRS */
@@ -204,6 +207,8 @@ h3 {
   font-size: 18px;
   letter-spacing: -1.3px;
   justify-content: space-between;
+  align-items: center;
+  padding: 12px;
 }
 
 footer {
