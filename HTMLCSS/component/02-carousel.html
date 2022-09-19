@@ -41,10 +41,13 @@
         padding-left: 86px;
         display: flex;
         /* align-items: center; */
-        gap: 86px;
+        /* gap: 86px; */
         position: relative;
       }
 
+      .testimonial {
+        margin-left: 80px;
+      }
       .testimonial-text {
         font-size: 20px;
         font-weight: 400;
@@ -97,17 +100,25 @@
       }
 
       .dots {
-        position: absolute;
-        left: 50%;
-        bottom: 50%;
+        /* position: absolute; */
+        /* display: center;
+        transform: translate(-50% 32px); */
+
+        /* transform: translate(50%, 40px); */
+        gap: 14px;
+        display: flex;
       }
       .dot {
-        width: 17px;
-        height: 17px;
+        width: 12px;
+        height: 12px;
         background-color: #fff;
-        border: 5px solid #099268;
+        border: 2px solid #099268;
         border-radius: 50%;
         cursor: pointer;
+        transform: translate(-270px, 289px);
+      }
+      .dot--fill {
+        background-color: #099268;
       }
     </style>
     <div class="carousel"></div>
@@ -162,7 +173,7 @@
         </svg>
       </button>
       <div class="dots"></div>
-      <div class="dot">&nbsp;</div>
+      <div class="dot dot--fill">&nbsp;</div>
       <div class="dot">&nbsp;</div>
       <div class="dot">&nbsp;</div>
       <div class="dot">&nbsp;</div>
