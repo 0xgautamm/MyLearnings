@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Accordian component</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "inter", sans-serif;
+        color: #343a40;
+        line-height: 1;
+      }
+
+      img {
+        height: 250px;
+        /* padding: 32px; */
+        border-radius: 15px;
+        transform: scale(1.4);
+        box-shadow: 0px 12px 24px #868e96;
+      }
+
+      .carousel {
+        width: 890px;
+        background-color: #099268;
+        margin: 100px auto;
+        /* color: #fff; */
+        border-radius: 8px;
+        padding: 0px;
+        padding-left: 86px;
+        display: flex;
+        /* align-items: center; */
+        gap: 86px;
+        position: relative;
+      }
+
+      .testimonial-text {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.3;
+        margin-bottom: 43px;
+        color: #c4f7e7;
+        margin-top: 21px;
+        margin-right: 10px;
+      }
+      .testimonial-author {
+        font-size: 16px;
+        margin-bottom: 8px;
+        color: #c4f7e7;
+      }
+      .testimonial-job {
+        color: #c4f7e7;
+        font-size: 16px;
+        margin-bottom: 7px;
+      }
+
+      .btn {
+        background-color: #fff;
+        width: 40px;
+        height: 40px;
+        border: none;
+        border-radius: 50%;
+        color: #099268;
+        position: absolute;
+        box-shadow: 0px 12px 10px #adb5bd;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+      }
+      .btn--left {
+        left: 0;
+        top: 50%;
+        transform: translate(-60%, -40%);
+      }
+
+      .btn--right {
+        right: 0;
+        top: 50%;
+        transform: translate(60%, -40%);
+      }
+
+      .btn-icon {
+        height: 42px;
+        width: 43px;
+      }
+
+      .dots {
+        position: absolute;
+        left: 50%;
+        bottom: 50%;
+      }
+      .dot {
+        width: 17px;
+        height: 17px;
+        background-color: #fff;
+        border: 5px solid #099268;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+    </style>
+    <div class="carousel"></div>
+    <title>Accordian component</title>
+  </head>
+  <body>
+    <div class="carousel">
+      <img src="maria.jpg" alt="maria" />
+
+      <blockquote class="testimonial">
+        <p class="testimonial-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, iure?
+          Voluptatem repudiandae aliquam iusto est, cum ullam sunt perferendis
+          illo vel modi aspernatur. Beatae unde temporibus molestias, quibusdam
+          soluta laboriosam!
+        </p>
+        <p class="testimonial-author">Maria al alpedius</p>
+        <p class="testimonial-job">
+          Senior post office-manager at EDP assosciation
+        </p>
+      </blockquote>
+      <button class="btn btn--left">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="btn-icon"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M15.75 19.5L8.25 12l7.5-7.5"
+          />
+        </svg>
+      </button>
+      <button class="btn btn--right">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="btn-icon"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M8.25 4.5l7.5 7.5-7.5 7.5"
+          />
+        </svg>
+      </button>
+      <div class="dots"></div>
+      <div class="dot">&nbsp;</div>
+      <div class="dot">&nbsp;</div>
+      <div class="dot">&nbsp;</div>
+      <div class="dot">&nbsp;</div>
+    </div>
+  </body>
+</html>
