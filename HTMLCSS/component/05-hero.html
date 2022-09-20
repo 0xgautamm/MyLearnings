@@ -14,10 +14,42 @@
   />
 
   <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+    }
+
     .container {
       width: 1200px;
       margin: 0px auto;
-      background-color: blueviolet;
+      /* background-color: blueviolet; */
+    }
+    header {
+      /* background-color: aqua; */
+      height: 100vh;
+      position: relative;
+      background-image: linear-gradient(
+          rgb(34, 34, 34, 0.6),
+          rgb(34, 34, 34, 0.6)
+        ),
+        url(hero.jpg);
+      background-size: cover;
+      color: #fff;
+    }
+
+    .header-container {
+      width: 1200px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      /* text-align: center; */
+      /* background-color: #4199f0; */
+    }
+    .header-container-inner {
+      width: 50%;
+      /* background-color: pink; */
     }
     html {
       font-family: "rubik", sans-serif;
@@ -29,7 +61,8 @@
       font-weight: 700;
       display: flex;
       justify-content: space-between;
-      background-color: green;
+      /* background-color: green; */
+      padding-top: 32px;
     }
     h1 {
       font-size: 52px;
@@ -57,7 +90,7 @@
     }
     section {
       padding: 96px 0px;
-      background-color: #f7f7f7;
+      /* background-color: #f7f7f7; */
     }
   </style>
   <body>
@@ -66,13 +99,16 @@
         <div>LOGO</div>
         <div>NAVIGATION</div>
       </nav>
-      <div class="container">
-        <h1>A healthy meal deliver to your door,every single day</h1>
-        <p>
-          There are food subscription for 365 days on super package of our newly
-          release subscription with worth only join. WE HEALTHY WELCOME YOU
-        </p>
-        <a href="#" class="btn">Start Eating Well</a>
+      <div class="header-container">
+        <div class="header-container-inner">
+          <h1>A healthy meal deliver to your door,every single day</h1>
+          <p>
+            There are food subscription for 365 days on super package of our
+            newly release subscription with worth only join. WE HEALTHY WELCOME
+            YOU
+          </p>
+          <a href="#" class="btn">Start Eating Well</a>
+        </div>
       </div>
     </header>
 
