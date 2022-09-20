@@ -21,58 +21,126 @@
         font-family: "inter", sans-serif;
         color: #343a40;
         line-height: 1;
+        display: flex;
+        justify-content: center;
       }
-      .btn-icon {
-        height: 28px;
-        width: 28px;
+
+      /* .number {
+        text-decoration: none;
+        margin-top: 90px;
+        margin-left: 190px;
+
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        color: #099268;
+      } */
+
+      .pagination {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-top: 200px;
+      }
+      .number:link,
+      .number:visited {
+        font-size: 18px;
+        text-decoration: none;
+        color: #343a40;
+        height: 36px;
+        width: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+      }
+
+      .number:hover,
+      .number:active,
+      .number.number--current {
         background-color: #099268;
-        color: #20c997;
-        margin: 8px 18 px;
+        color: #fff;
       }
+
+      .btn-icon {
+        height: 34px;
+        width: 32px;
+        background-color: #fff;
+        color: #099268;
+        margin: 14px 18px;
+        /* border-radius: 20px; */
+        cursor: pointer;
+      }
+
+     
+      .btn-left {
+        transform: translate(-470px, 8px);
+        /* background-color: #ffff;
+        stroke: #099268; */
+        border-radius: 20px;
+        border: 1px solid #099268;
+      }
+
+      .btn-right {
+        transform: translate(1px, -35px);
+        /* background-color: #ffff;
+        stroke: #099268; */
+        border-radius: 20px;
+        border: 1px solid #099268;
+      }
+      /* .three {
+        background-color: #099268;
+        color: #fff;
+        width: 24px;
+        height: 26px;
+        border-radius: 18px;
+        padding-left: 6px;
+        padding-bottom: 6px;
+        padding-top: 4px; */
     </style>
   </head>
   <body>
-    <div class="number">
-      <a href="#">1</a>
-      <a href="#">2</a>
-      <a href="#">3</a>
-      <a href="#">4</a>
-      <a href="#">5</a>
-      <a href="#">6</a>
-      <a href="#">.....</a>
-      <a href="#">23</a>
-    </div>
-    <div class="btn-icon">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke-width="1.5"
-        stroke="currentColor"
-        class="btn-left"
-      >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          d="M15.75 19.5L8.25 12l7.5-7.5"
-        />
-      </svg>
-    </div>
-    <div class="btn-icon">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke-width="1.5"
-        stroke="currentColor"
-        class="btn-right"
-      >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          d="M8.25 4.5l7.5 7.5-7.5 7.5"
-        />
-      </svg>
+    <div class="pagination">
+      <a href="#" class="number">1</a>
+      <a href="#" class="number">2</a>
+      <a href="#" class="number number--current">3</a>
+      <a href="#" class="number">4</a>
+      <a href="#" class="number">5</a>
+      <a href="#" class="number">6</a>
+      <a href="#" class="number">.....</a>
+      <a href="#" class="number">23</a>
+
+      <div class="btn-icon">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="btn-left"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M15.75 19.5L8.25 12l7.5-7.5"
+          />
+        </svg>
+      
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="btn-right"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M8.25 4.5l7.5 7.5-7.5 7.5"
+          />
+        </svg>
+      
     </div>
   </body>
 </html>
