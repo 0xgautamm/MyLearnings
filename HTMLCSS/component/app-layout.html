@@ -26,7 +26,6 @@
     }
 
     nav,
-    menu,
     section,
     aside,
     main {
@@ -38,13 +37,51 @@
       background-color: #868e96;
     }
     menu {
-      background-color: #6741d9;
+      background-color: #7048e8;
       color: #fff;
       grid-column: 2/5;
+      display: flex;
+      align-items: center;
+      /* justify-content: space-between; */
+      gap: 12px;
+      padding: 0px 40px;
+    }
+    button {
+      font-size: 16px;
+      font-weight: bold;
+      background-color: #5f3dc4;
+      border: none;
+      padding: 4px 10px;
+      cursor: pointer;
+      color: #fff;
+      display: inline-block;
+    }
+    button:last-child {
+      background-color: #e03131;
+      margin-left: auto;
     }
     section {
       background-color: #e9ecef;
       color: #000;
+      padding: 20px 36px;
+
+      overflow: scroll;
+
+      display: flex;
+      flex-direction: column;
+      gap: 19px;
+    }
+    .email {
+      font-size: 22px;
+      padding: 22px 0px;
+      height: 83px;
+      color: #343a40;
+      background-color: #adb5bd;
+      flex-shrink: 0;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
     aside {
       background-color: #e9ecef;
@@ -56,14 +93,26 @@
   </style>
   <body>
     <nav>NAV</nav>
-    <menu>Menu</menu>
-    <section>Inbox</section>
+    <menu>
+      <button>New</button>
+      <button>Reply</button>
+      <button>Forward</button>
+      <button>Mark unread</button>
+      <button>Trash</button>
+    </menu>
+    <section>
+      <div class="email">Email 1</div>
+      <div class="email">Email 2</div>
+      <div class="email">Email 3</div>
+      <div class="email">Email 4</div>
+      <div class="email">Email 5</div>
+      <div class="email">Email 6</div>
+      <div class="email">Email 7</div>
+      <div class="email">Email 8</div>
+      <div class="email">Email 9</div>
+      <div class="email">Email 10</div>
+    </section>
     <main>E-mail view</main>
     <aside>Additional Info</aside>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
-      aliquid, quibusdam pariatur a similique, optio rem maxime et facilis porro
-      expedita animi officia velit modi voluptas blanditiis dolorem sed odit!
-    </p>
   </body>
 </html>
