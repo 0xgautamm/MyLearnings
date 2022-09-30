@@ -92,26 +92,28 @@
 // console.log(typeof continent);
 // console.log(typeof population);
 // CONST/LET
-const language = "Hindi";
-console.log(language);
-const country = "India";
-console.log(country);
-const continent = "Asia";
-console.log(continent);
-const population = 21;
-console.log(population);
-let isIsland = "true";
+// const language = "Hindi";
+// console.log(language);
+// const country = "India";
+// console.log(country);
+// const continent = "Asia";
+// console.log(continent);
+// const population = 21;
+// console.log(population);
+// let isIsland = "true";
 //BASIC OPERATOR
-// const populationIndia = 100;
-// console.log(populationIndia / 2);
-// const countryIndia = 100;
+// const populationIndia = 100 / 2;
+// console.log(populationIndia);
+// const eachHalf = "each part of half conatain 50";
+// console.log(eachHalf);
+
+// let countryIndia = 100;
+// countryIndia += 1;
 // console.log(countryIndia);
-// let population = 100;
-// console.log(population + 1);
 
 // const finlandPopulation = 600;
 // console.log(finlandPopulation);
-// console.log(countryIndia > finlandPopulation);
+// console.log(countryIndia < finlandPopulation);
 // console.log(countryIndia <= 33);
 
 // const morePopultion = countryIndia <= 33;
@@ -119,3 +121,28 @@ let isIsland = "true";
 // const description =
 //   "Portugal is in europe and it has 16 million people who spoke Portuguese";
 // console.log(description);
+
+// code challenge..
+const markMass = "78kg";
+const markHeight = "1.69 meter";
+
+console.log(markMass, markHeight);
+let markBMI = 78 / 1.69 ** 2;
+console.log(markBMI);
+
+const bmi = "marksBMI=27.309968138370508";
+console.log(bmi);
+
+const johnMass = "92kg";
+const johnHeight = "1.95 meter";
+console.log(johnMass, johnHeight);
+
+let johnBmi = 92 / 1.95 ** 2;
+console.log(johnBmi);
+
+const jBmi = "johnBMI=24.194608809993426";
+console.log(jBmi);
+
+const markHeigherBMI = "is Mark have Higher BMI?";
+console.log(markHeigherBMI);
+console.log(markBMI > johnBmi);
