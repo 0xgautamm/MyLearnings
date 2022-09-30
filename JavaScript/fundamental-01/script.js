@@ -91,31 +91,31 @@
 // console.log(typeof country);
 // console.log(typeof continent);
 // console.log(typeof population);
-// // CONST/LET
-// const language = "Hindi";
-// console.log(language);
-// const country = "India";
-// console.log(country);
-// const continent = "Asia";
-// console.log(continent);
-// const population = 21;
-// console.log(population);
-// let isIsland = "true";
+// CONST/LET
+const language = "Hindi";
+console.log(language);
+const country = "India";
+console.log(country);
+const continent = "Asia";
+console.log(continent);
+const population = 21;
+console.log(population);
+let isIsland = "true";
 //BASIC OPERATOR
-const populationIndia = 100;
-console.log(populationIndia / 2);
-const countryIndia = 100;
-console.log(countryIndia);
-let population = 100;
-console.log(population + 1);
+// const populationIndia = 100;
+// console.log(populationIndia / 2);
+// const countryIndia = 100;
+// console.log(countryIndia);
+// let population = 100;
+// console.log(population + 1);
 
-const finlandPopulation = "6";
-console.log(finlandPopulation);
-console.log(countryIndia > finlandPopulation);
-console.log(countryIndia <= 33);
+// const finlandPopulation = 600;
+// console.log(finlandPopulation);
+// console.log(countryIndia > finlandPopulation);
+// console.log(countryIndia <= 33);
 
-const morePopultion = countryIndia <= 33;
-
-const description =
-  "Portugal is in europe and it has 16 million people who spoke Portuguese";
-console.log(description);
+// const morePopultion = countryIndia <= 33;
+// console.log(finlandPopulation > countryIndia);
+// const description =
+//   "Portugal is in europe and it has 16 million people who spoke Portuguese";
+// console.log(description);
