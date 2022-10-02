@@ -123,26 +123,47 @@
 // console.log(description);
 
 // code challenge..
-const markMass = "78kg";
-const markHeight = "1.69 meter";
+// const markMass = "78kg";
+// const markHeight = "1.69 meter";
 
-console.log(markMass, markHeight);
-let markBMI = 78 / 1.69 ** 2;
-console.log(markBMI);
+// console.log(markMass, markHeight);
+// let markBMI = 78 / 1.69 ** 2;
+// console.log(markBMI);
 
-const bmi = "marksBMI=27.309968138370508";
-console.log(bmi);
+// const bmi = "marksBMI=27.309968138370508";
+// console.log(bmi);
 
-const johnMass = "92kg";
-const johnHeight = "1.95 meter";
-console.log(johnMass, johnHeight);
+// const johnMass = "92kg";
+// const johnHeight = "1.95 meter";
+// console.log(johnMass, johnHeight);
 
-let johnBmi = 92 / 1.95 ** 2;
-console.log(johnBmi);
+// let johnBmi = 92 / 1.95 ** 2;
+// console.log(johnBmi);
 
-const jBmi = "johnBMI=24.194608809993426";
-console.log(jBmi);
+// const jBmi = "johnBMI=24.194608809993426";
+// console.log(jBmi);
 
-const markHeigherBMI = "is Mark have Higher BMI?";
-console.log(markHeigherBMI);
-console.log(markBMI > johnBmi);
+// const markHeigherBMI = "is Mark have Higher BMI?";
+// console.log(markHeigherBMI);
+// console.log(markBMI > johnBmi);
+
+// ..................string and template literal
+
+const name = "Gautam";
+const job = "student";
+const birthYear = 2002;
+const workingYear = 2024;
+
+const id =
+  " I'm " + name + " ,a " + (workingYear - birthYear) + " years old " + job;
+console.log(id);
+
+const idNew = `I'm ${name}, a ${workingYear - birthYear} year old ${job}!..`; //string method
+console.log(idNew);
+
+console.log("strings \n element \n multiple \n line"); //casual format
+
+console.log(`string
+work
+multiple 
+line`); //template literal format
