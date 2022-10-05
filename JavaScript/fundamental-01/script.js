@@ -1,8 +1,11 @@
+//  ........for pop-up ..........
 // let js = "amazing";
 // // if (js === "amazing") alert("Javascript is alot of fun");
 
 // 23 + 7 - 10 + 20;
 // console.log(23 + 7 - 10 + 29);
+
+// .......values and variables.............
 
 // let firstName = "oxETH";
 // console.log(firstName);
@@ -46,7 +49,9 @@
 // year = 2002;
 // console.log(typeof year);
 // console.log(typeof null);
-// MATHSoperator.....
+
+//...... MATHSoperator.....
+
 // const year = 2040;
 // const ageSach = year - 1992;
 // const ageDoms = year - 1990;
@@ -58,7 +63,9 @@
 // const finalName = "Taneja";
 
 // console.log(firstName + finalName);
+
 // //assignment operator
+
 // let x = 20 - 10 + 20 + 80 - 10;
 // x += 100;
 // x -= 120;
@@ -66,7 +73,7 @@
 // x--;
 // console.log(x);
 
-// // comparison operator
+// ....comparison operator............
 // console.log(ageSach > ageDoms);
 // console.log(ageSach >= 48);
 // console.log(ageDoms <= 55);
@@ -84,14 +91,18 @@
 
 // let population = "32.00  Million";
 // console.log(population);
+
 // // DATA TYPE
+
 // let isIsland = true;
 // let language = "Hindi";
 // console.log(typeof isIsland);
 // console.log(typeof country);
 // console.log(typeof continent);
 // console.log(typeof population);
-// CONST/LET
+
+//...... CONST/LET.......
+
 // const language = "Hindi";
 // console.log(language);
 // const country = "India";
@@ -101,7 +112,9 @@
 // const population = 21;
 // console.log(population);
 // let isIsland = "true";
-//BASIC OPERATOR
+
+//.....BASIC OPERATOR..........
+
 // const populationIndia = 100 / 2;
 // console.log(populationIndia);
 // const eachHalf = "each part of half conatain 50";
@@ -122,48 +135,97 @@
 //   "Portugal is in europe and it has 16 million people who spoke Portuguese";
 // console.log(description);
 
-// code challenge..
-// const markMass = "78kg";
-// const markHeight = "1.69 meter";
-
-// console.log(markMass, markHeight);
-// let markBMI = 78 / 1.69 ** 2;
-// console.log(markBMI);
-
-// const bmi = "marksBMI=27.309968138370508";
-// console.log(bmi);
-
-// const johnMass = "92kg";
-// const johnHeight = "1.95 meter";
-// console.log(johnMass, johnHeight);
-
-// let johnBmi = 92 / 1.95 ** 2;
-// console.log(johnBmi);
-
-// const jBmi = "johnBMI=24.194608809993426";
-// console.log(jBmi);
-
-// const markHeigherBMI = "is Mark have Higher BMI?";
-// console.log(markHeigherBMI);
-// console.log(markBMI > johnBmi);
-
 // ..................string and template literal
 
-const name = "Gautam";
-const job = "student";
-const birthYear = 2002;
-const workingYear = 2024;
+// const name = "Gautam";
+// const job = "student";
+// const birthYear = 2002;
+// const workingYear = 2024;
 
-const id =
-  " I'm " + name + " ,a " + (workingYear - birthYear) + " years old " + job;
-console.log(id);
+// const id =
+//   " I'm " + name + " ,a " + (workingYear - birthYear) + " years old " + job;
+// console.log(id);
 
-const idNew = `I'm ${name}, a ${workingYear - birthYear} year old ${job}!..`; //string method
-console.log(idNew);
+// const idNew = `I'm ${name}, a ${workingYear - birthYear} year old ${job}!..`; //string method
+// console.log(idNew);
 
-console.log("strings \n element \n multiple \n line"); //casual format
+// console.log("strings \n element \n multiple \n line"); //casual format
 
-console.log(`string
-work
-multiple 
-line`); //template literal format
+// console.log(`string
+// work
+// multiple
+// line`); //template literal format
+
+// ///asssignments of string and template
+
+// const description = `Portugal is in Europe and it has over 6 million people who
+// spoke portuguese `;
+
+// console.log(description);
+
+// done...
+
+// // if /else statement
+// const age = 19;
+
+// if (age >= 18) {
+//   console.log("Sarah can do driving from 1st of Jan ");
+// }
+
+// const newAge = 15;
+
+// if (newAge >= 18) {
+//   console.log("Sarah can do driving from 1st of Jan ");
+// } else {
+//   const yearsleft = 18 - newAge;
+//   console.log(
+//     `Sarah is too young for driving, she can drive after ${yearsleft} years with clear license `
+//   );
+// }
+
+// const year = 1997;
+// let century;
+// if (year >= 2000) {
+//   century = 21;
+// } else {
+//   century = 20;
+// }
+// console.log(century);
+
+// // .....assignments
+
+// const country = "India";
+// const populationMass = 33;
+// if (populationMass >= 22) {
+//   console.log(
+//     ` ${country} has the above  average population of ${populationMass}`
+//   );
+// } else {
+//   console.log(
+//     `potuguese population ${33 - populationMass} is below the average`
+//   );
+// }
+
+// .........type of conversion......
+
+const inputYear = "1992";
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
+
+console.log(Number("Jeneffer") + 20);
+console.log(typeof NaN);
+
+console.log(String(23), 23);
+
+// ....type of coersion.....
+
+console.log("I'm " + 20 + " years old " + "boy ");
+console.log("20" + "30" + "20");
+console.log("200" - "30" - "50");
+console.log("20" / "5");
+console.log("900" > "300");
+console.log("10" * "4");
+
+let n = "1" + 9;
+n = n - 1;
+console.log(n);
