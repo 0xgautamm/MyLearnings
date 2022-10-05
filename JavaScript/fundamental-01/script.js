@@ -208,24 +208,45 @@
 
 // .........type of conversion......
 
-const inputYear = "1992";
-console.log(Number(inputYear), inputYear);
-console.log(Number(inputYear) + 18);
+// const inputYear = "1992";
+// console.log(Number(inputYear), inputYear);
+// console.log(Number(inputYear) + 18);
 
-console.log(Number("Jeneffer") + 20);
-console.log(typeof NaN);
+// console.log(Number("Jeneffer") + 20);
+// console.log(typeof NaN);
 
-console.log(String(23), 23);
+// console.log(String(23), 23);
 
-// ....type of coersion.....
+// // ....type of coersion.....
 
-console.log("I'm " + 20 + " years old " + "boy ");
-console.log("20" + "30" + "20");
-console.log("200" - "30" - "50");
-console.log("20" / "5");
-console.log("900" > "300");
-console.log("10" * "4");
+// console.log("I'm " + 20 + " years old " + "boy ");
+// console.log("20" + "30" + "20");
+// console.log("200" - "30" - "50");
+// console.log("20" / "5");
+// console.log("900" > "300");
+// console.log("10" * "4");
 
-let n = "1" + 9;
-n = n - 1;
-console.log(n);
+// let n = "1" + 9;
+// n = n - 1;
+// console.log(n);
+
+// .....truthy and falsy values......
+console.log(Boolean(NaN));
+console.log(Boolean("jeneffer"));
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+
+const money = 0;
+
+if (money) {
+  console.log("Save it like a water you saved always");
+} else {
+  console.log("Increase it like a sense");
+}
+
+let height = 02;
+if (height) {
+  console.log("Height like building YAY!");
+} else {
+  console.log("AHH! want to increase height");
+}
