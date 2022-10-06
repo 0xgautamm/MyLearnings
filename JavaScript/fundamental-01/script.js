@@ -253,39 +253,65 @@
 
 // .......equality operators.......
 
-const money = "50";
+// const money = "50";
 
-if (money === "50") console.log("Wealth leads to happiness :)");
+// if (money === "50") console.log("Wealth leads to happiness :)");
 
-if (money == 50) console.log("Save it or leave it or be happy with it");
+// if (money == 50) console.log("Save it or leave it or be happy with it");
 
-const favourite = Number(prompt("what is your number to say"));
-console.log(favourite);
-console.log(typeof favourite);
+// const favourite = Number(prompt("what is your number to say"));
+// console.log(favourite);
+// console.log(typeof favourite);
 
-if (favourite === 12) {
-  console.log("Woah 12 is so positive number");
-} else if (favourite === 4) {
-  console.log("Great number as 4 here");
-} else if (favourite === 8) {
-  console.log("Amazing number refer to as 8");
-} else if (favourite === 18) {
-  console.log("Amazing number refer to as 18");
+// if (favourite === 12) {
+//   console.log("Woah 12 is so positive number");
+// } else if (favourite === 4) {
+//   console.log("Great number as 4 here");
+// } else if (favourite === 8) {
+//   console.log("Amazing number refer to as 8");
+// } else if (favourite === 18) {
+//   console.log("Amazing number refer to as 18");
+// } else {
+//   console.log("Number is between of either 20 or 60");
+// }
+
+// // .......assignments
+
+// const numNeigbour = Number(prompt("How many neighbour's your country have"));
+// console.log(numNeigbour);
+
+// if (numNeigbour === 1) {
+//   console.log("Only 1 border");
+// } else if (numNeigbour === 12) {
+//   console.log("India have more than 1 border");
+// } else if (numNeigbour === 23) {
+//   console.log("India is major country with major boundries");
+// } else {
+//   console.log("India is one of major country with not 1 or 12 boundry ..:|");
+// }
+
+// ....logical operators.......
+
+const hasDrivingLicense = true;
+const hasClearVision = true;
+
+console.log(hasDrivingLicense && hasClearVision);
+console.log(hasDrivingLicense || hasClearVision);
+console.log(!hasDrivingLicense);
+
+if (shouldDrive) {
+  console.log("Every adult should drive");
 } else {
-  console.log("Number is between of either 20 or 60");
+  console.log("Not every under 18teen can drive");
 }
 
-// .......assignments
+const isTired = false;
 
-const numNeigbour = Number(prompt("How many neighbour's your country have"));
-console.log(numNeigbour);
+console.log(hasDrivingLicense || hasClearVision || isTired);
+console.log(!isTired);
 
-if (numNeigbour === 1) {
-  console.log("Only 1 border");
-} else if (numNeigbour === 12) {
-  console.log("India have more than 1 border");
-} else if (numNeigbour === 23) {
-  console.log("India is major country with major boundries");
+if (hasDrivingLicense && hasClearVision && !isTired) {
+  console.log("Every adult should drive");
 } else {
-  console.log("India is one of major country with not 1 or 12 boundry ..:|");
+  console.log("Not every under 18teen can drive");
 }
