@@ -231,22 +231,61 @@
 // console.log(n);
 
 // .....truthy and falsy values......
-console.log(Boolean(NaN));
-console.log(Boolean("jeneffer"));
-console.log(Boolean(0));
-console.log(Boolean(undefined));
+// console.log(Boolean(NaN));
+// console.log(Boolean("jeneffer"));
+// console.log(Boolean(0));
+// console.log(Boolean(undefined));
 
-const money = 0;
+// const money = 0;
 
-if (money) {
-  console.log("Save it like a water you saved always");
+// if (money) {
+//   console.log("Save it like a water you saved always");
+// } else {
+//   console.log("Increase it like a sense");
+// }
+
+// let height = 02;
+// if (height) {
+//   console.log("Height like building YAY!");
+// } else {
+//   console.log("AHH! want to increase height");
+// }
+
+// .......equality operators.......
+
+const money = "50";
+
+if (money === "50") console.log("Wealth leads to happiness :)");
+
+if (money == 50) console.log("Save it or leave it or be happy with it");
+
+const favourite = Number(prompt("what is your number to say"));
+console.log(favourite);
+console.log(typeof favourite);
+
+if (favourite === 12) {
+  console.log("Woah 12 is so positive number");
+} else if (favourite === 4) {
+  console.log("Great number as 4 here");
+} else if (favourite === 8) {
+  console.log("Amazing number refer to as 8");
+} else if (favourite === 18) {
+  console.log("Amazing number refer to as 18");
 } else {
-  console.log("Increase it like a sense");
+  console.log("Number is between of either 20 or 60");
 }
 
-let height = 02;
-if (height) {
-  console.log("Height like building YAY!");
+// .......assignments
+
+const numNeigbour = Number(prompt("How many neighbour's your country have"));
+console.log(numNeigbour);
+
+if (numNeigbour === 1) {
+  console.log("Only 1 border");
+} else if (numNeigbour === 12) {
+  console.log("India have more than 1 border");
+} else if (numNeigbour === 23) {
+  console.log("India is major country with major boundries");
 } else {
-  console.log("AHH! want to increase height");
+  console.log("India is one of major country with not 1 or 12 boundry ..:|");
 }
