@@ -292,26 +292,47 @@
 
 // ....logical operators.......
 
-const hasDrivingLicense = true;
-const hasClearVision = true;
+// const hasDrivingLicense = true;
+// const hasClearVision = false;
 
-console.log(hasDrivingLicense && hasClearVision);
-console.log(hasDrivingLicense || hasClearVision);
-console.log(!hasDrivingLicense);
+// console.log(hasDrivingLicense && hasClearVision);
+// console.log(hasDrivingLicense || hasClearVision);
+// console.log(!hasDrivingLicense);
 
-if (shouldDrive) {
-  console.log("Every adult should drive");
+// if (shouldDrive) {
+//   console.log("Every adult should drive");
+// } else {
+//   console.log("Not every under 18teen can drive");
+// }
+
+// const isTired = false;
+
+// console.log(hasDrivingLicense || hasClearVision || isTired);
+// console.log(!isTired);
+
+// if (hasDrivingLicense && hasClearVision && !isTired) {
+//   console.log("Every adult should drive");
+// } else {
+//   console.log("Not every under 18teen can drive");
+// }
+
+// ..assignments/...
+
+const speakEnglish = false;
+const lessPeople = false;
+const notIsland = true;
+
+if (speakEnglish || lessPeople || notIsland) {
+  console.log(
+    "India has no english people and even also have high density and is standing country on land"
+  );
 } else {
-  console.log("Not every under 18teen can drive");
+  console.log(
+    "Dubai has English spoken people and also considered as an Island with less density of people"
+  );
 }
-
-const isTired = false;
-
-console.log(hasDrivingLicense || hasClearVision || isTired);
-console.log(!isTired);
-
-if (hasDrivingLicense && hasClearVision && !isTired) {
-  console.log("Every adult should drive");
+if (speakEnglish || lessPeople || notIsland) {
+  console.log("You should live here");
 } else {
-  console.log("Not every under 18teen can drive");
+  console.log("You should move to some where else, this place is not for you");
 }
