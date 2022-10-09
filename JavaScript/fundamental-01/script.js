@@ -318,21 +318,75 @@
 
 // ..assignments/...
 
-const speakEnglish = false;
-const lessPeople = false;
-const notIsland = true;
+// const speakEnglish = false;
+// const lessPeople = false;
+// const notIsland = true;
 
-if (speakEnglish || lessPeople || notIsland) {
-  console.log(
-    "India has no english people and even also have high density and is standing country on land"
-  );
-} else {
-  console.log(
-    "Dubai has English spoken people and also considered as an Island with less density of people"
-  );
+// if (speakEnglish || lessPeople || notIsland) {
+//   console.log(
+//     "India has no english people and even also have high density and is standing country on land"
+//   );
+// } else {
+//   console.log(
+//     "Dubai has English spoken people and also considered as an Island with less density of people"
+//   );
+// }
+// if (speakEnglish || lessPeople || notIsland) {
+//   console.log("You should live here");
+// } else {
+//   console.log("You should move to some where else, this place is not for you");
+// }
+
+// .....switch statements.........
+
+const day = "monday";
+
+switch (day) {
+  case "monday":
+    console.log("Monday as a beginner power of day");
+
+    break;
+
+  case "tuesday":
+    console.log("Second day of the week");
+    break;
+
+  case "wednesday":
+  case "thursday":
+    console.log("Most hottest day of the week ");
+    console.log("Going for freshy day ");
+    break;
+
+  // if we remove *break; 2console.log will continue print in console like here most hottest and last second day
+  //  will be printed if we remove break from thursday console
+
+  case "friday":
+    console.log("Last second day of the week");
+    break;
+
+  case "saturday":
+    console.log("Last day of the week for enjoyment");
+    break;
+
+  case "sunday":
+    console.log("sunday consider as funday with friends");
+    break;
+  default:
+    console.log("All the days are fulled with enjoyment with knowledge");
 }
-if (speakEnglish || lessPeople || notIsland) {
-  console.log("You should live here");
-} else {
-  console.log("You should move to some where else, this place is not for you");
+
+// if/else statement.....
+
+if (day === monday) {
+  console.log("Monday as a beginner power of day");
+} else if (day === tuesday) {
+  console.log("Going for now and today freshy day ");
+} else if (day === wednesday || day === thursday) {
+  console.log("Most hottest day of the week ");
+} else if (day === friday) {
+  console.log("Last second day of the week");
+} else if (day === saturday) {
+  console.log("Last day of the week for enjoyment");
+} else if (day === sunday) {
+  console.log("sunday consider as funday with friends");
 }
