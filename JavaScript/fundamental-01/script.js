@@ -1,341 +1,341 @@
-//  ........for pop-up ..........
-// let js = "amazing";
-// // if (js === "amazing") alert("Javascript is alot of fun");
+ ........for pop-up ..........
+let js = "amazing";
+// if (js === "amazing") alert("Javascript is alot of fun");
 
-// 23 + 7 - 10 + 20;
-// console.log(23 + 7 - 10 + 29);
+23 + 7 - 10 + 20;
+console.log(23 + 7 - 10 + 29);
 
-// .......values and variables.............
+.......values and variables.............
 
-// let firstName = "oxETH";
-// console.log(firstName);
+let firstName = "oxETH";
+console.log(firstName);
 
-// let first_person_name = "marvel's avengers";
+let first_person_name = "marvel's avengers";
 
-// console.log(first_person_name);
+console.log(first_person_name);
 
-// console.log(first_person_name);
+console.log(first_person_name);
 
-// console.log(first_person_name);
+console.log(first_person_name);
 
-// console.log(first_person_name);
+console.log(first_person_name);
 
-// let myFirstJob = "student towards school";
-// let myCurrentSituation = "boy towards family";
+let myFirstJob = "student towards school";
+let myCurrentSituation = "boy towards family";
 
-// console.log(myCurrentSituation);
-// console.log(myFirstJob);
+console.log(myCurrentSituation);
+console.log(myFirstJob);
 
-// console.log(myFirstJob);
-// console.log(myCurrentSituation);
+console.log(myFirstJob);
+console.log(myCurrentSituation);
 
-// let javascriptIsFun = true;
+let javascriptIsFun = true;
 
-// console.log(javascriptIsFun);
+console.log(javascriptIsFun);
 
-// console.log(typeof javascriptIsFun);
+console.log(typeof javascriptIsFun);
 
-// // console.log(typeof false);
-// // console.log(typeof 24);
-// // console.log(typeof "jonas schwadeft");
+// console.log(typeof false);
+// console.log(typeof 24);
+// console.log(typeof "jonas schwadeft");
 
-// javascriptIsFun = "fun!";
-// console.log(typeof javascriptIsFun);
+javascriptIsFun = "fun!";
+console.log(typeof javascriptIsFun);
 
-// let year;
-// console.log(year);
-// console.log(typeof year);
+let year;
+console.log(year);
+console.log(typeof year);
 
-// year = 2002;
-// console.log(typeof year);
-// console.log(typeof null);
+year = 2002;
+console.log(typeof year);
+console.log(typeof null);
 
-//...... MATHSoperator.....
+...... MATHSoperator.....
 
-// const year = 2040;
-// const ageSach = year - 1992;
-// const ageDoms = year - 1990;
-// console.log(ageSach, ageDoms);
+const year = 2040;
+const ageSach = year - 1992;
+const ageDoms = year - 1990;
+console.log(ageSach, ageDoms);
 
-// console.log(ageSach * 50, ageSach / 12, 5 ** 10);
+console.log(ageSach * 50, ageSach / 12, 5 ** 10);
 
-// const firstName = "Gaurav";
-// const finalName = "Taneja";
+const firstName = "Gaurav";
+const finalName = "Taneja";
 
-// console.log(firstName + finalName);
+console.log(firstName + finalName);
 
-// //assignment operator
+//assignment operator
 
-// let x = 20 - 10 + 20 + 80 - 10;
-// x += 100;
-// x -= 120;
-// x++;
-// x--;
-// console.log(x);
+let x = 20 - 10 + 20 + 80 - 10;
+x += 100;
+x -= 120;
+x++;
+x--;
+console.log(x);
 
-// ....comparison operator............
-// console.log(ageSach > ageDoms);
-// console.log(ageSach >= 48);
-// console.log(ageDoms <= 55);
-// console.log(ageDoms <= 45);
+....comparison operator............
+console.log(ageSach > ageDoms);
+console.log(ageSach >= 48);
+console.log(ageDoms <= 55);
+console.log(ageDoms <= 45);
 
-// console.log(year - 1992 < year - 1990);
+console.log(year - 1992 < year - 1990);
 
-// assignments
-// variable and values
-// let country = "India";
-// console.log(country);
+assignments
+variable and values
+let country = "India";
+console.log(country);
 
-// let continent = "Asia";
-// console.log(continent);
+let continent = "Asia";
+console.log(continent);
 
-// let population = "32.00  Million";
-// console.log(population);
+let population = "32.00  Million";
+console.log(population);
 
-// // DATA TYPE
+// DATA TYPE
 
-// let isIsland = true;
-// let language = "Hindi";
-// console.log(typeof isIsland);
-// console.log(typeof country);
-// console.log(typeof continent);
-// console.log(typeof population);
+let isIsland = true;
+let language = "Hindi";
+console.log(typeof isIsland);
+console.log(typeof country);
+console.log(typeof continent);
+console.log(typeof population);
 
-//...... CONST/LET.......
+// ...... CONST/LET.......
 
-// const language = "Hindi";
-// console.log(language);
-// const country = "India";
-// console.log(country);
-// const continent = "Asia";
-// console.log(continent);
-// const population = 21;
-// console.log(population);
-// let isIsland = "true";
+const language = "Hindi";
+console.log(language);
+const country = "India";
+console.log(country);
+const continent = "Asia";
+console.log(continent);
+const population = 21;
+console.log(population);
+let isIsland = "true";
 
-//.....BASIC OPERATOR..........
+// .....BASIC OPERATOR..........
 
-// const populationIndia = 100 / 2;
-// console.log(populationIndia);
-// const eachHalf = "each part of half conatain 50";
-// console.log(eachHalf);
+const populationIndia = 100 / 2;
+console.log(populationIndia);
+const eachHalf = "each part of half conatain 50";
+console.log(eachHalf);
 
-// let countryIndia = 100;
-// countryIndia += 1;
-// console.log(countryIndia);
+let countryIndia = 100;
+countryIndia += 1;
+console.log(countryIndia);
 
-// const finlandPopulation = 600;
-// console.log(finlandPopulation);
-// console.log(countryIndia < finlandPopulation);
-// console.log(countryIndia <= 33);
+const finlandPopulation = 600;
+console.log(finlandPopulation);
+console.log(countryIndia < finlandPopulation);
+console.log(countryIndia <= 33);
 
-// const morePopultion = countryIndia <= 33;
-// console.log(finlandPopulation > countryIndia);
-// const description =
-//   "Portugal is in europe and it has 16 million people who spoke Portuguese";
-// console.log(description);
+const morePopultion = countryIndia <= 33;
+console.log(finlandPopulation > countryIndia);
+const description =
+  "Portugal is in europe and it has 16 million people who spoke Portuguese";
+console.log(description);
 
-// ..................string and template literal
+..................string and template literal
 
-// const name = "Gautam";
-// const job = "student";
-// const birthYear = 2002;
-// const workingYear = 2024;
+const name = "Gautam";
+const job = "student";
+const birthYear = 2002;
+const workingYear = 2024;
 
-// const id =
-//   " I'm " + name + " ,a " + (workingYear - birthYear) + " years old " + job;
-// console.log(id);
+const id =
+  " I'm " + name + " ,a " + (workingYear - birthYear) + " years old " + job;
+console.log(id);
 
-// const idNew = `I'm ${name}, a ${workingYear - birthYear} year old ${job}!..`; //string method
-// console.log(idNew);
+const idNew = `I'm ${name}, a ${workingYear - birthYear} year old ${job}!..`; //string method
+console.log(idNew);
 
-// console.log("strings \n element \n multiple \n line"); //casual format
+console.log("strings \n element \n multiple \n line"); //casual format
 
-// console.log(`string
-// work
-// multiple
-// line`); //template literal format
+console.log(`string
+work
+multiple
+line`); //template literal format
 
-// ///asssignments of string and template
+///asssignments of string and template
 
-// const description = `Portugal is in Europe and it has over 6 million people who
-// spoke portuguese `;
+const description = `Portugal is in Europe and it has over 6 million people who
+spoke portuguese `;
 
-// console.log(description);
+console.log(description);
 
 // done...
 
-// // if /else statement
-// const age = 19;
+// if /else statement
+const age = 19;
 
-// if (age >= 18) {
-//   console.log("Sarah can do driving from 1st of Jan ");
-// }
+if (age >= 18) {
+  console.log("Sarah can do driving from 1st of Jan ");
+}
 
-// const newAge = 15;
+const newAge = 15;
 
-// if (newAge >= 18) {
-//   console.log("Sarah can do driving from 1st of Jan ");
-// } else {
-//   const yearsleft = 18 - newAge;
-//   console.log(
-//     `Sarah is too young for driving, she can drive after ${yearsleft} years with clear license `
-//   );
-// }
+if (newAge >= 18) {
+  console.log("Sarah can do driving from 1st of Jan ");
+} else {
+  const yearsleft = 18 - newAge;
+  console.log(
+    `Sarah is too young for driving, she can drive after ${yearsleft} years with clear license `
+  );
+}
 
-// const year = 1997;
-// let century;
-// if (year >= 2000) {
-//   century = 21;
-// } else {
-//   century = 20;
-// }
-// console.log(century);
+const year = 1997;
+let century;
+if (year >= 2000) {
+  century = 21;
+} else {
+  century = 20;
+}
+console.log(century);
 
-// // .....assignments
+// .....assignments
 
-// const country = "India";
-// const populationMass = 33;
-// if (populationMass >= 22) {
-//   console.log(
-//     ` ${country} has the above  average population of ${populationMass}`
-//   );
-// } else {
-//   console.log(
-//     `potuguese population ${33 - populationMass} is below the average`
-//   );
-// }
+const country = "India";
+const populationMass = 33;
+if (populationMass >= 22) {
+  console.log(
+    ` ${country} has the above  average population of ${populationMass}`
+  );
+} else {
+  console.log(
+    `potuguese population ${33 - populationMass} is below the average`
+  );
+}
 
 // .........type of conversion......
 
-// const inputYear = "1992";
-// console.log(Number(inputYear), inputYear);
-// console.log(Number(inputYear) + 18);
+const inputYear = "1992";
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
 
-// console.log(Number("Jeneffer") + 20);
-// console.log(typeof NaN);
+console.log(Number("Jeneffer") + 20);
+console.log(typeof NaN);
 
-// console.log(String(23), 23);
+console.log(String(23), 23);
 
-// // ....type of coersion.....
+// ....type of coersion.....
 
-// console.log("I'm " + 20 + " years old " + "boy ");
-// console.log("20" + "30" + "20");
-// console.log("200" - "30" - "50");
-// console.log("20" / "5");
-// console.log("900" > "300");
-// console.log("10" * "4");
+console.log("I'm " + 20 + " years old " + "boy ");
+console.log("20" + "30" + "20");
+console.log("200" - "30" - "50");
+console.log("20" / "5");
+console.log("900" > "300");
+console.log("10" * "4");
 
-// let n = "1" + 9;
-// n = n - 1;
-// console.log(n);
+let n = "1" + 9;
+n = n - 1;
+console.log(n);
 
 // .....truthy and falsy values......
-// console.log(Boolean(NaN));
-// console.log(Boolean("jeneffer"));
-// console.log(Boolean(0));
-// console.log(Boolean(undefined));
+console.log(Boolean(NaN));
+console.log(Boolean("jeneffer"));
+console.log(Boolean(0));
+console.log(Boolean(undefined));
 
 // const money = 0;
 
-// if (money) {
-//   console.log("Save it like a water you saved always");
-// } else {
-//   console.log("Increase it like a sense");
-// }
+if (money) {
+  console.log("Save it like a water you saved always");
+} else {
+  console.log("Increase it like a sense");
+}
 
-// let height = 02;
-// if (height) {
-//   console.log("Height like building YAY!");
-// } else {
-//   console.log("AHH! want to increase height");
-// }
+let height = 02;
+if (height) {
+  console.log("Height like building YAY!");
+} else {
+  console.log("AHH! want to increase height");
+}
 
 // .......equality operators.......
 
-// const money = "50";
+const money = "50";
 
-// if (money === "50") console.log("Wealth leads to happiness :)");
+if (money === "50") console.log("Wealth leads to happiness :)");
 
-// if (money == 50) console.log("Save it or leave it or be happy with it");
+if (money == 50) console.log("Save it or leave it or be happy with it");
 
-// const favourite = Number(prompt("what is your number to say"));
-// console.log(favourite);
-// console.log(typeof favourite);
+const favourite = Number(prompt("what is your number to say"));
+console.log(favourite);
+console.log(typeof favourite);
 
-// if (favourite === 12) {
-//   console.log("Woah 12 is so positive number");
-// } else if (favourite === 4) {
-//   console.log("Great number as 4 here");
-// } else if (favourite === 8) {
-//   console.log("Amazing number refer to as 8");
-// } else if (favourite === 18) {
-//   console.log("Amazing number refer to as 18");
-// } else {
-//   console.log("Number is between of either 20 or 60");
-// }
+if (favourite === 12) {
+  console.log("Woah 12 is so positive number");
+} else if (favourite === 4) {
+  console.log("Great number as 4 here");
+} else if (favourite === 8) {
+  console.log("Amazing number refer to as 8");
+} else if (favourite === 18) {
+  console.log("Amazing number refer to as 18");
+} else {
+  console.log("Number is between of either 20 or 60");
+}
 
-// // .......assignments
+// .......assignments
 
-// const numNeigbour = Number(prompt("How many neighbour's your country have"));
-// console.log(numNeigbour);
+const numNeigbour = Number(prompt("How many neighbour's your country have"));
+console.log(numNeigbour);
 
-// if (numNeigbour === 1) {
-//   console.log("Only 1 border");
-// } else if (numNeigbour === 12) {
-//   console.log("India have more than 1 border");
-// } else if (numNeigbour === 23) {
-//   console.log("India is major country with major boundries");
-// } else {
-//   console.log("India is one of major country with not 1 or 12 boundry ..:|");
-// }
+if (numNeigbour === 1) {
+  console.log("Only 1 border");
+} else if (numNeigbour === 12) {
+  console.log("India have more than 1 border");
+} else if (numNeigbour === 23) {
+  console.log("India is major country with major boundries");
+} else {
+  console.log("India is one of major country with not 1 or 12 boundry ..:|");
+}
 
 // ....logical operators.......
 
-// const hasDrivingLicense = true;
-// const hasClearVision = false;
+const hasDrivingLicense = true;
+const hasClearVision = false;
 
-// console.log(hasDrivingLicense && hasClearVision);
-// console.log(hasDrivingLicense || hasClearVision);
-// console.log(!hasDrivingLicense);
+console.log(hasDrivingLicense && hasClearVision);
+console.log(hasDrivingLicense || hasClearVision);
+console.log(!hasDrivingLicense);
 
-// if (shouldDrive) {
-//   console.log("Every adult should drive");
-// } else {
-//   console.log("Not every under 18teen can drive");
-// }
+if (shouldDrive) {
+  console.log("Every adult should drive");
+} else {
+  console.log("Not every under 18teen can drive");
+}
 
-// const isTired = false;
+const isTired = false;
 
-// console.log(hasDrivingLicense || hasClearVision || isTired);
-// console.log(!isTired);
+console.log(hasDrivingLicense || hasClearVision || isTired);
+console.log(!isTired);
 
-// if (hasDrivingLicense && hasClearVision && !isTired) {
-//   console.log("Every adult should drive");
-// } else {
-//   console.log("Not every under 18teen can drive");
-// }
+if (hasDrivingLicense && hasClearVision && !isTired) {
+  console.log("Every adult should drive");
+} else {
+  console.log("Not every under 18teen can drive");
+}
 
 // ..assignments/...
 
-// const speakEnglish = false;
-// const lessPeople = false;
-// const notIsland = true;
+const speakEnglish = false;
+const lessPeople = false;
+const notIsland = true;
 
-// if (speakEnglish || lessPeople || notIsland) {
-//   console.log(
-//     "India has no english people and even also have high density and is standing country on land"
-//   );
-// } else {
-//   console.log(
-//     "Dubai has English spoken people and also considered as an Island with less density of people"
-//   );
-// }
-// if (speakEnglish || lessPeople || notIsland) {
-//   console.log("You should live here");
-// } else {
-//   console.log("You should move to some where else, this place is not for you");
-// }
+if (speakEnglish || lessPeople || notIsland) {
+  console.log(
+    "India has no english people and even also have high density and is standing country on land"
+  );
+} else {
+  console.log(
+    "Dubai has English spoken people and also considered as an Island with less density of people"
+  );
+}
+if (speakEnglish || lessPeople || notIsland) {
+  console.log("You should live here");
+} else {
+  console.log("You should move to some where else, this place is not for you");
+}
 
 // .....switch statements.........
 
@@ -390,3 +390,29 @@ if (day === monday) {
 } else if (day === sunday) {
   console.log("sunday consider as funday with friends");
 }
+
+// ....conditional / ternary operator,.....
+
+const age = 21;
+
+age >= 18
+  ? console.log("Above legal age anyone can drink alcohal ")
+  : console.log("Below legal age drinking is injurious to health");
+
+const weed = age >= 18 ? "drink alcohal" : "injuriuos to health";
+console.log(weed);
+
+let weed2;
+if (age >= 18) {
+  weed2 = "drink alcohal";
+} else {
+  weed2 = "injurious to health";
+}
+
+console.log(weed2);
+// two difffer mathods to log consol of above and below one too..
+console.log(
+  `I like to advised people that alcohal is ${
+    age >= 18 ? "drink alcohal" : "injuriuos to health"
+  } `
+);
