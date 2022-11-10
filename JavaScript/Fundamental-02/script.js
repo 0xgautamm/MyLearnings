@@ -1,28 +1,43 @@
-// "strict code";
-
-// let hasDriveLicense = true;
-// const passTest = true;
-
-// if (passTest) hasDriveLicense = true;
-// if (hasDriveLicense) console.log("Anyone can drive vehicale after license :O ");
-
-// .......Functions........
-
-function logger() {
-  console.log("We all are the son of God");
+function fruitMaker(){
+   console.log(`We are beginners for code`)
 }
-// calling/running/invoking the function and here 'loggers' are name of function.....
-logger();
-logger();
-logger();
+// doiing below thing is called invoking/calling/running the function
 
-function fruits(apple, bananas) {
-  const healthTip = `Fruit juice are very healthy when it contains ${apple} apples and ${bananas} bunch of bananas.`;
-  return healthTip;
+fruitMaker();
+fruitMaker();
+fruitMaker();
+fruitMaker();
+
+function fruitProcessor(apple, banana){
+  console.log(apple,banana);
+  const juice=`We are beginners so we have ${apple} apples and bunch of ${banana} bananas`
+return juice 
 }
-// number at 'fruits' i.e 5,3 ....these numbers are known as arguements
-const juice = fruits(5, 3);
-console.log(juice);
 
-const juiceStart = fruits(4, 8);
-console.log(juiceStart);
+const appleJuice=fruitProcessor(3,7);
+console.log(appleJuice);
+
+const bananaJuice=fruitProcessor(6,8);
+console.log(bananaJuice);
+
+const num = Number(90);
+console.log(num);
+
+// .............assignments function........................
+
+function describeCountry (country, population, capitalCity){
+  console.log(country,population, capitalCity);
+  const data= `${country} has ${population} million of people and its capital city is ${capitalCity}`
+  return data
+}
+
+const dataIndia=describeCountry('India', 4, 'Delhi');
+console.log(dataIndia);
+
+const dataAmerica= describeCountry('America', 7, 'Washington DC')
+console.log(dataAmerica);
+
+const dataFinland=describeCountry('Finland', 5, 'Helsinki')
+console.log( dataFinland);
+
+
