@@ -68,3 +68,25 @@ const calAge2= function (birthYear){
 
 const age2 = calAge2(1997);
 console.log(age1 ,age2) ; 
+
+//.................assignments.............
+
+function percentOfWorld01 (population){ 
+  return population/7900*100 
+}
+
+const chinaPopulation =  percentOfWorld01(1441) 
+const indiaPopulation= percentOfWorld01(2123);
+const usaPopulation= percentOfWorld01(1256);
+console.log(chinaPopulation, indiaPopulation, usaPopulation);
+
+
+const percentOfWorld02 = function totalPopulation(population02){
+                           return population02/7900*100
+}
+
+const finland = percentOfWorld02(3466);
+const ireland = percentOfWorld02(3135);
+const lesbon = percentOfWorld02(7653);
+
+console.log(finland, ireland, lesbon);
