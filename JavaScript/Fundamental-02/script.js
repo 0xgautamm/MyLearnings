@@ -51,7 +51,7 @@
 
 // // FUNCTIONS declarations vs EXPRESSIONS/////////
 
-// //  function declaration
+//  function declaration
 //   function calAge1(birthYear){
 //   // const birth= 2043- birthYear;       OR  we can directly come to ""return""
 //   return 2043- birthYear
@@ -92,17 +92,27 @@
 // console.log(finland, ireland, lesbon);
 
 //................ ARROW FUNCTIONS.............
-const calAge3= birthYear=> 2034- birthYear;
+// const calAge3= birthYear=> 2034- birthYear;
 
-const age= calAge3(1984);
-console.log(age);
+// const age= calAge3(1984);
+// console.log(age);
 
-const yearsUntilRetirement = (birthYear, namePerson)=>{
-      const age = 2034- birthYear;
-      const retirementAge= 70- age;
-    //  return retirementAge
-    return `${namePerson} will be retire at the age of ${retirementAge}`
-}
+// const yearsUntilRetirement = (birthYear, namePerson)=>{
+//       const age = 2034- birthYear;
+//       const retirementAge= 70- age;
+//     //  return retirementAge
+//     return `${namePerson} will be retire at the age of ${retirementAge}`
+// }
 
-console.log(yearsUntilRetirement(1998, 'Vinay'));
-console.log(yearsUntilRetirement(1992, 'Bijoy'));
+// console.log(yearsUntilRetirement(1998, 'Vinay'));
+// console.log(yearsUntilRetirement(1992, 'Bijoy'));
+
+// ......assignments.............
+
+const percentOfWorld03 = population=> population/7900*100
+
+const india = percentOfWorld03(3442);
+const europe= percentOfWorld03(4577);
+const berlin = percentOfWorld03(4567);
+
+console.log(india, europe, berlin);
