@@ -1,92 +1,108 @@
-// function fruitMaker(){
-//    console.log(`We are beginners for code`)
+// // function fruitMaker(){
+// //    console.log(`We are beginners for code`)
+// // }
+// // // doiing below thing is called invoking/calling/running the function
+
+// // fruitMaker();
+// // fruitMaker();
+// // fruitMaker();
+// // fruitMaker();
+
+// // function fruitProcessor(apple, banana){
+// //   console.log(apple,banana);
+// //   const juice = `We are beginners so we have ${apple} apples and bunch of ${banana} bananas.`;
+// // return juice 
+// // }
+
+// // const appleJuice = fruitProcessor(3,7);
+// // console.log(appleJuice);
+
+// // const bananaJuice = fruitProcessor(6,8);
+// // console.log(bananaJuice);
+
+// // const num = Number(90);
+// // console.log(num);
+
+// // // NOTE...................................
+// // //1-; (counttry, population, capitalcity),(apple, banana), all these are called "PARAMETERS"  and the values of these parameters are called "ARGUEMENTS" i.e (3,7),(6,8),(india ,4, delhi, etc etc)....
+
+// // //2-; consoling the ARGUEMENTS is called declaration of functions...
+
+// // // 3-;  RETURN DATA helps to have differnt value for 1 function many times by giving a variable and its value in arguements..... 
+
+
+// // // .............assignments function........................
+
+// // function describeCountry (country, population, capitalCity){
+// //   console.log(country,population, capitalCity);
+// //   const data = `${country} has ${population} million of people and its capital city is ${capitalCity}.`;
+// //   return data
+// // }
+
+// // const dataIndia = describeCountry('India', 4, 'Delhi');
+// // console.log(dataIndia);
+
+// // const dataAmerica = describeCountry('America', 7, 'Washington DC')
+// // console.log(dataAmerica);
+
+// // const dataFinland = describeCountry('Finland', 5, 'Helsinki')
+// // console.log( dataFinland);
+// // ....................................................................................................................................
+
+// // FUNCTIONS declarations vs EXPRESSIONS/////////
+
+// //  function declaration
+//   function calAge1(birthYear){
+//   // const birth= 2043- birthYear;       OR  we can directly come to ""return""
+//   return 2043- birthYear
 // }
-// // doiing below thing is called invoking/calling/running the function
+// const age1 = calAge1(1998);
 
-// fruitMaker();
-// fruitMaker();
-// fruitMaker();
-// fruitMaker();
 
-// function fruitProcessor(apple, banana){
-//   console.log(apple,banana);
-//   const juice = `We are beginners so we have ${apple} apples and bunch of ${banana} bananas.`;
-// return juice 
+// // function expression -: expression is an value and a value has a variable so we can fix a function in "const" as a variable which gonna give value.........and like others functions is also value i.e string,number,boolean any value among them...........
+
+// const calAge2= function (birthYear){
+
+//   return 2043- birthYear
+//   }
+
+// const age2 = calAge2(1997);
+// console.log(age1 ,age2) ; 
+
+// //.................assignments.............
+
+// function percentOfWorld01 (population){ 
+//   return population/7900*100 
 // }
 
-// const appleJuice = fruitProcessor(3,7);
-// console.log(appleJuice);
-
-// const bananaJuice = fruitProcessor(6,8);
-// console.log(bananaJuice);
-
-// const num = Number(90);
-// console.log(num);
-
-// // NOTE...................................
-// //1-; (counttry, population, capitalcity),(apple, banana), all these are called "PARAMETERS"  and the values of these parameters are called "ARGUEMENTS" i.e (3,7),(6,8),(india ,4, delhi, etc etc)....
-
-// //2-; consoling the ARGUEMENTS is called declaration of functions...
-
-// // 3-;  RETURN DATA helps to have differnt value for 1 function many times by giving a variable and its value in arguements..... 
+// const chinaPopulation =  percentOfWorld01(1441) 
+// const indiaPopulation= percentOfWorld01(2123);
+// const usaPopulation= percentOfWorld01(1256);
+// console.log(chinaPopulation, indiaPopulation, usaPopulation);
 
 
-// // .............assignments function........................
-
-// function describeCountry (country, population, capitalCity){
-//   console.log(country,population, capitalCity);
-//   const data = `${country} has ${population} million of people and its capital city is ${capitalCity}.`;
-//   return data
+// const percentOfWorld02 = function totalPopulation(population02){
+//                            return population02/7900*100
 // }
 
-// const dataIndia = describeCountry('India', 4, 'Delhi');
-// console.log(dataIndia);
+// const finland = percentOfWorld02(3466);
+// const ireland = percentOfWorld02(3135);
+// const lesbon = percentOfWorld02(7653);
 
-// const dataAmerica = describeCountry('America', 7, 'Washington DC')
-// console.log(dataAmerica);
+// console.log(finland, ireland, lesbon);
 
-// const dataFinland = describeCountry('Finland', 5, 'Helsinki')
-// console.log( dataFinland);
-// ....................................................................................................................................
+//................ ARROW FUNCTIONS.............
+const calAge3= birthYear=> 2034- birthYear;
 
-// FUNCTIONS declarations vs EXPRESSIONS/////////
+const age= calAge3(1984);
+console.log(age);
 
-//  function declaration
-  function calAge1(birthYear){
-  // const birth= 2043- birthYear;       OR  we can directly come to ""return""
-  return 2043- birthYear
-}
-const age1 = calAge1(1998);
-
-
-// function expression -: expression is an value and a value has a variable so we can fix a function in "const" as a variable which gonna give value.........and like others functions is also value i.e string,number,boolean any value among them...........
-
-const calAge2= function (birthYear){
-
-  return 2043- birthYear
-  }
-
-const age2 = calAge2(1997);
-console.log(age1 ,age2) ; 
-
-//.................assignments.............
-
-function percentOfWorld01 (population){ 
-  return population/7900*100 
+const yearsUntilRetirement = (birthYear, namePerson)=>{
+      const age = 2034- birthYear;
+      const retirementAge= 70- age;
+    //  return retirementAge
+    return `${namePerson} will be retire at the age of ${retirementAge}`
 }
 
-const chinaPopulation =  percentOfWorld01(1441) 
-const indiaPopulation= percentOfWorld01(2123);
-const usaPopulation= percentOfWorld01(1256);
-console.log(chinaPopulation, indiaPopulation, usaPopulation);
-
-
-const percentOfWorld02 = function totalPopulation(population02){
-                           return population02/7900*100
-}
-
-const finland = percentOfWorld02(3466);
-const ireland = percentOfWorld02(3135);
-const lesbon = percentOfWorld02(7653);
-
-console.log(finland, ireland, lesbon);
+console.log(yearsUntilRetirement(1998, 'Vinay'));
+console.log(yearsUntilRetirement(1992, 'Bijoy'));
