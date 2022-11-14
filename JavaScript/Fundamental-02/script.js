@@ -109,10 +109,27 @@
 
 // ......assignments.............
 
-const percentOfWorld03 = population=> population/7900*100
+// const percentOfWorld03 = population=> population/7900*100
 
-const india = percentOfWorld03(3442);
-const europe= percentOfWorld03(4577);
-const berlin = percentOfWorld03(4567);
+// const india = percentOfWorld03(3442);
+// const europe= percentOfWorld03(4577);
+// const berlin = percentOfWorld03(4567);
 
-console.log(india, europe, berlin);
+// console.log(india, europe, berlin);
+
+// ........function calling the other function...........
+
+ function cutPeiceFruit(fruit){
+  return fruit * 4
+ }
+
+
+function fruitProcessor(apple, banana){
+
+  const applePeice= cutPeiceFruit(apple);
+   const bananaPeice= cutPeiceFruit(banana);
+
+ const juice = `We are beginners so we have ${applePeice} apples juice and bunch of ${bananaPeice} bananas shake will boost up our community.`;
+  return juice }
+
+  console.log(fruitProcessor(3,6));
