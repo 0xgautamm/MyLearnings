@@ -119,17 +119,285 @@
 
 // ........function calling the other function...........
 
- function cutPeiceFruit(fruit){
-  return fruit * 4
- }
+//  function cutPeiceFruit(fruit){
+//   return fruit*9
+//  }
 
 
-function fruitProcessor(apple, banana){
+// function fruitProcessor(apple, banana){
 
-  const applePeice= cutPeiceFruit(apple);
-   const bananaPeice= cutPeiceFruit(banana);
+//   const applePeice= cutPeiceFruit(apple);
+//    const bananaPeice= cutPeiceFruit(banana);
 
- const juice = `We are beginners so we have ${applePeice} apples juice and bunch of ${bananaPeice} bananas shake will boost up our community.`;
-  return juice }
+//  const juice = `We are beginners so we have ${applePeice} apples juice and bunch of ${bananaPeice} bananas shake will boost up our community.`;
+//   return juice }
 
-  console.log(fruitProcessor(3,6));
+//   console.log(fruitProcessor(3,6));
+
+// ,,,,,,,,,ASSIGNMENTS..............
+
+function totalPopulation (population){
+  return population/100
+}
+
+
+function describeCountry(country,people){
+   
+  const partPercent= totalPopulation(7900)
+
+  const counting = `${country} has over ${people} million of people which is about the ${partPercent} percent of the world.` 
+  return counting
+}
+
+console.log(describeCountry('Berlin', 1441));
+console.log(describeCountry('Tokyo', 1241));
+console.log(describeCountry('China', 5341));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
