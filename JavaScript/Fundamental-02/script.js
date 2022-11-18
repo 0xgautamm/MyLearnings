@@ -136,25 +136,44 @@
 
 // ,,,,,,,,,ASSIGNMENTS..............
 
-function totalPopulation (population){
-  return population/100
+// function totalPopulation (population){
+//   return population/100
+// }
+
+
+// function describeCountry(country,people){
+  
+//   const partPercent= totalPopulation(7900)
+//   const counting = `${country} has over ${people} million of people which is about the ${partPercent} percent of the world.` 
+//   return counting
+// }
+  
+// console.log(describeCountry('Berlin', 1441));
+// console.log(describeCountry('Tokyo', 1241));
+// console.log(describeCountry('China', 5341));
+
+// ...........REVIEWING FUNCTION...........
+
+const calAge= function (birthYear){
+  return 2034-birthYear;
 }
 
+const yearsUntilRetirement = function (birthYear, namePerson){
+        const age = calAge(birthYear);
+        const retirementAge= 70- age;
 
-function describeCountry(country,people){
-   
-  const partPercent= totalPopulation(7900)
-
-  const counting = `${country} has over ${people} million of people which is about the ${partPercent} percent of the world.` 
-  return counting
+if (retirementAge > 0){
+  return retirementAge
+  console.log(`${namePerson} will be retire at the age of ${retirementAge}`);
+} else {
+  console.log(`${namePerson} is already retire earlier`);
+  return -1;
 }
 
-console.log(describeCountry('Berlin', 1441));
-console.log(describeCountry('Tokyo', 1241));
-console.log(describeCountry('China', 5341));
+  }
 
-
-
+  console.log(yearsUntilRetirement(1996, 'Tascon'));
+  console.log(yearsUntilRetirement(1916, 'Jacky'));
 
 
 
