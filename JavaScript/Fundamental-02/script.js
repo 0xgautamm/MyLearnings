@@ -154,41 +154,59 @@
 
 // ...........REVIEWING FUNCTION...........
 
-const calAge= function (birthYear){
-  return 2034-birthYear;
+// const calAge= function (birthYear){
+//   return 2034-birthYear;
+// }
+
+// const yearsUntilRetirement = function (birthYear, namePerson){
+//         const age = calAge(birthYear);
+//         const retirementAge= 70- age;
+
+// if (retirementAge > 0){
+//   console.log(`${namePerson} will be retire at the age of ${retirementAge}`);
+//   return retirementAge
+//   // console.log 1st and return 2nd..> bcuzz return immidiately exits the functions thats why when we put return first it didn't show anything bcuz it dont have any conssole to show ....and at same moment when we put *return* at 2nd it has a console to show.... 
+// } else {
+//   console.log(`${namePerson} is already retire earlier`);
+//   return -1;
+// }
+//   }
+
+//   console.log(yearsUntilRetirement(1996, 'Tascon'));
+//   console.log(yearsUntilRetirement(1916, 'Jacky'));
+
+
+// ................................. CODE CHALLENGE1 from FUNDA-02................................
+
+const calcAverage= (a,b,c) =>(a+b+c)/3;
+console.log(calcAverage(3,5,7));
+
+// test-01
+let scoreDolphins = calcAverage(44,23,71);
+let  scoreKoalas = calcAverage(65,54,49);
+console.log(scoreDolphins, scoreKoalas);                                     
+
+
+const checkWinner= function (avgDolphin, avgKoala){
+
+ if(avgDolphin >= 2 * avgKoala){
+   console.log(`Dolphins wins yeahhu with (${avgDolphin} vs. ${avgKoala}).`)
+} else if (avgKoala >= 2 * avgDolphin){
+  console.log(`Yeah Koalas won the match with (${avgDolphin} vs. ${avgKoala}).`)
+}  else {
+  console.log(`No team wins......`);
 }
-
-const yearsUntilRetirement = function (birthYear, namePerson){
-        const age = calAge(birthYear);
-        const retirementAge= 70- age;
-
-if (retirementAge > 0){
-  return retirementAge
-  console.log(`${namePerson} will be retire at the age of ${retirementAge}`);
-} else {
-  console.log(`${namePerson} is already retire earlier`);
-  return -1;
-}
-
   }
 
-  console.log(yearsUntilRetirement(1996, 'Tascon'));
-  console.log(yearsUntilRetirement(1916, 'Jacky'));
 
+  checkWinner(scoreDolphins, scoreKoalas);
+  checkWinner(231, 602);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+// test-02
+scoreDolphins = calcAverage(85, 54,41);
+  scoreKoalas = calcAverage(23,34,27);
+console.log(scoreDolphins, scoreKoalas);  
+checkWinner(scoreDolphins, scoreKoalas);
 
 
 
