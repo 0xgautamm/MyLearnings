@@ -228,10 +228,10 @@ console.log(friends[0]);
 console.log(friends[02]);
 
 console.log(friends.length);
-friends.length is formal counting i.e 1,2,3,4,5,,,etc,,...so here .length take the number '4'as final result..
+// friends.length is formal counting i.e 1,2,3,4,5,,,etc,,...so here .length take the number '4'as final result..
 
 console.log(friends[friends.length - 2]);
-
+after having (friends) means it become ARRAY  and [.length-2] means 4-2 =2 and this 2 will count as per ARRAY..i.e 02 is the stark
 
 
 
