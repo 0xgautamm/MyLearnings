@@ -209,8 +209,8 @@
 // checkWinner(scoreDolphins, scoreKoalas);
 
 //''''''''''''''''''''''''''''''''''''' ARRAYS ;- THE PART OF DATA STRUCTURE ...............................................
-ARRAYS =  THIS  helps to contains various values together in a large container called data structure and 
-         2 data structure are:- ARRAY  and  OBJECT
+// ARRAYS =  THIS  helps to contains various values together in a large container called data structure and 
+//          2 data structure are:- ARRAY  and  OBJECT
 
 
 const friend01 = 'Peter';
@@ -221,13 +221,16 @@ const friend04 = 'Natasa';
 const friends = ['Peter', 'Bruce', 'Stark', 'Natasa'];
 console.log(friends);
 
-const years = New Array(1293, 8493, 4520, 1220,2002);
+const years = new Array (1293, 8493, 4520, 1220,2002);
+// ARRAY are zero based count...like peter is @0, bruce is @01, stark is @03, natasa is @04.....like this ,, so on console.log
 
+console.log(friends[0]);
+console.log(friends[02]);
 
+console.log(friends.length);
+friends.length is formal counting i.e 1,2,3,4,5,,,etc,,...so here .length take the number '4'as final result..
 
-
-
-
+console.log(friends[friends.length - 2]);
 
 
 
