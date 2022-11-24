@@ -272,13 +272,15 @@ console.log(newFriend);
 
 // unshift method-:) it is use to add a new element to BEGINNING of ARRAY...and here friends.UNSHIFT (.)dots stands for attachments with friends variable..
 
+const newFriends=friends.unshift('Panther');
  friends.unshift('Vision')
 console.log(friends);
+console.log(newFriends);
 
 // remove elements>>>>>>>>>>>
 
-pop-method= is use to remove the LAST element and no need to give any arguement..
-shift-method= use to remove FIRST element and no need to give any arguement..
+// pop-method= is use to remove the LAST element and no need to give any arguement..
+// shift-method= use to remove FIRST element and no need to give any arguement..
 
 friends.pop();
 const poppedFriend=friends.pop();
@@ -286,8 +288,22 @@ console.log(friends);
 console.log(poppedFriend);
 
 
+friends.shift();
+friends.shift();
+console.log(friends
+  )
 
 
+  index.of = is use in identifying the place number of the elements..
+  inclueds= is use in verifying that element is present in code or not
+
+  console.log(friends.indexOf('Bruce'));
+  console.log(friends.indexOf('Peter'));
+
+  
+  console.log(friends.includes('Bruce'));
+  console.log(friends.includes('Peter'));
+console.log(friends.includes('Thanos'));
 
 
 
