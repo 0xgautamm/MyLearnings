@@ -263,22 +263,27 @@
 // push method-:) it is use to add a new element to END of ARRAY...and here friends.push (.)dots stands for attachments with friends variable..
 
 const friends = ['Peter', 'Bruce', 'Stark', 'Natasa'];
+
+// add elements>>>>>>>>>>
+
 const newFriend= friends.push('Stephan Strange');
 console.log(friends);
 console.log(newFriend);
 
-unshift method-:) it is use to add a new element to BEGINNING of ARRAY...and here friends.UNSHIFT (.)dots stands for attachments with friends variable..
+// unshift method-:) it is use to add a new element to BEGINNING of ARRAY...and here friends.UNSHIFT (.)dots stands for attachments with friends variable..
 
-const friends = ['Peter', 'Bruce', 'Stark', 'Natasa'];
-friends.unshift('Vision')
+ friends.unshift('Vision')
 console.log(friends);
 
+// remove elements>>>>>>>>>>>
 
+pop-method= is use to remove the LAST element and no need to give any arguement..
+shift-method= use to remove FIRST element and no need to give any arguement..
 
-
-
-
-
+friends.pop();
+const poppedFriend=friends.pop();
+console.log(friends);
+console.log(poppedFriend);
 
 
 
