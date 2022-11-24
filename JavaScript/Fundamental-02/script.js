@@ -262,55 +262,66 @@
 
 // push method-:) it is use to add a new element to END of ARRAY...and here friends.push (.)dots stands for attachments with friends variable..
 
-const friends = ['Peter', 'Bruce', 'Stark', 'Natasa'];
+// const friends = ['Peter', 'Bruce', 'Stark', 'Natasa'];
 
-// add elements>>>>>>>>>>
+// // add elements>>>>>>>>>>
 
-const newFriend= friends.push('Stephan Strange');
-console.log(friends);
-console.log(newFriend);
+// const newFriend= friends.push('Stephan Strange');
+// console.log(friends);
+// console.log(newFriend);
 
-// unshift method-:) it is use to add a new element to BEGINNING of ARRAY...and here friends.UNSHIFT (.)dots stands for attachments with friends variable..
+// // unshift method-:) it is use to add a new element to BEGINNING of ARRAY...and here friends.UNSHIFT (.)dots stands for attachments with friends variable..
 
-const newFriends=friends.unshift('Panther');
- friends.unshift('Vision')
-console.log(friends);
-console.log(newFriends);
+// const newFriends=friends.unshift('Panther');
+//  friends.unshift('Vision')
+// console.log(friends);
+// console.log(newFriends);
 
-// remove elements>>>>>>>>>>>
+// // remove elements>>>>>>>>>>>
 
-// pop-method= is use to remove the LAST element and no need to give any arguement..
-// shift-method= use to remove FIRST element and no need to give any arguement..
+// // pop-method= is use to remove the LAST element and no need to give any arguement..
+// // shift-method= use to remove FIRST element and no need to give any arguement..
 
-friends.pop();
-const poppedFriend=friends.pop();
-console.log(friends);
-console.log(poppedFriend);
-
-
-friends.shift();
-friends.shift();
-console.log(friends
-  )
+// friends.pop();
+// const poppedFriend=friends.pop();
+// console.log(friends);
+// console.log(poppedFriend);
 
 
-  index.of = is use in identifying the place number of the elements..
-  inclueds= is use in verifying that element is present in code or not
+// friends.shift();
+// friends.shift();
+// console.log(friends
+//   )
 
-  console.log(friends.indexOf('Bruce'));
-  console.log(friends.indexOf('Peter'));
+
+//   // index.of = is use in identifying the place number of the elements..
+//   // inclueds= is use in verifying that element is present in code or not
+
+//   console.log(friends.indexOf('Bruce'));
+//   console.log(friends.indexOf('Peter'));
 
   
-  console.log(friends.includes('Bruce'));
-  console.log(friends.includes('Peter'));
-console.log(friends.includes('Thanos'));
+//   console.log(friends.includes('Bruce'));
+//   console.log(friends.includes('Peter'));
+// console.log(friends.includes('Thanos'));
+
+// ................Assignments for intro of Array>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
+const population= [1222, 4352, 6453, 3235];
+console.log(population);
 
+if(population >=4){
+  console.log('We have only population of 4 countries together')
+} else {
+  console.log('we dont have data')
+}
 
-
-
-
+const percentageOfWorld01= 1222/7900*100 
+const percentageOfWorld02= 4352/7900*100 
+const percentageOfWorld03= 6453/7900*100 
+const percentageOfWorld04= 3235/7900*100 
+console.log(percentageOfWorld01,percentageOfWorld02,percentageOfWorld03,percentageOfWorld04);
 
 
 
