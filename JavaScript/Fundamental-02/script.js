@@ -260,15 +260,18 @@
 
 // ..........,,,,,,,,,,,,.,.,.,..Methods of ARRAYS.......,,,,,,,,,,,,,,,,,,
 
-push method-:) it is use to add a new element to END of ARRAY...and here friends.push (.)dots stands for attachments with friends variable..
+// push method-:) it is use to add a new element to END of ARRAY...and here friends.push (.)dots stands for attachments with friends variable..
 
 const friends = ['Peter', 'Bruce', 'Stark', 'Natasa'];
-friends.push('Stephan Strange');
+const newFriend= friends.push('Stephan Strange');
 console.log(friends);
+console.log(newFriend);
 
+unshift method-:) it is use to add a new element to BEGINNING of ARRAY...and here friends.UNSHIFT (.)dots stands for attachments with friends variable..
 
-
-
+const friends = ['Peter', 'Bruce', 'Stark', 'Natasa'];
+friends.unshift('Vision')
+console.log(friends);
 
 
 
