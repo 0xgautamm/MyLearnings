@@ -176,42 +176,52 @@
 //   console.log(yearsUntilRetirement(1916, 'Jacky'));
 
 
-// ................................. CODE CHALLENGE1 from FUNDA-02................................
+// ......................................... CODE CHALLENGE_01 from FUNDA-02.......................................
 
-const calcAverage= (a,b,c) =>(a+b+c)/3;
-console.log(calcAverage(3,5,7));
+// const calcAverage= (a,b,c) =>(a+b+c)/3;
+// console.log(calcAverage(3,5,7));
 
-// test-01
-let scoreDolphins = calcAverage(44,23,71);
-let  scoreKoalas = calcAverage(65,54,49);
-console.log(scoreDolphins, scoreKoalas);                                     
-
-
-const checkWinner= function (avgDolphin, avgKoala){
-
- if(avgDolphin >= 2 * avgKoala){
-   console.log(`Dolphins wins yeahhu with (${avgDolphin} vs. ${avgKoala}).`)
-} else if (avgKoala >= 2 * avgDolphin){
-  console.log(`Yeah Koalas won the match with (${avgDolphin} vs. ${avgKoala}).`)
-}  else {
-  console.log(`No team wins......`);
-}
-  }
+// // test-01
+// let scoreDolphins = calcAverage(44,23,71);
+// let  scoreKoalas = calcAverage(65,54,49);
+// console.log(scoreDolphins, scoreKoalas);                                     
 
 
-  checkWinner(scoreDolphins, scoreKoalas);
-  checkWinner(231, 602);
+// const checkWinner= function (avgDolphin, avgKoala){
 
-// test-02
-scoreDolphins = calcAverage(85, 54,41);
-  scoreKoalas = calcAverage(23,34,27);
-console.log(scoreDolphins, scoreKoalas);  
-checkWinner(scoreDolphins, scoreKoalas);
+//  if(avgDolphin >= 2 * avgKoala){
+//    console.log(`Dolphins wins yeahhu with (${avgDolphin} vs. ${avgKoala}).`)
+// } else if (avgKoala >= 2 * avgDolphin){
+//   console.log(`Yeah Koalas won the match with (${avgDolphin} vs. ${avgKoala}).`)
+// }  else {
+//   console.log(`No team wins......`);
+// }
+//   }
 
 
+//   checkWinner(scoreDolphins, scoreKoalas);
+//   checkWinner(231, 602);
+
+// // test-02
+// scoreDolphins = calcAverage(85, 54,41);
+//   scoreKoalas = calcAverage(23,34,27);
+// console.log(scoreDolphins, scoreKoalas);  
+// checkWinner(scoreDolphins, scoreKoalas);
+
+//''''''''''''''''''''''''''''''''''''' ARRAYS ;- THE PART OF DATA STRUCTURE ...............................................
+ARRAYS =  THIS  helps to contains various values together in a large container called data structure and 
+         2 data structure are:- ARRAY  and  OBJECT
 
 
+const friend01 = 'Peter';
+const friend02 = 'Bruce';
+const friend03 = 'Stark';
+const friend04 = 'Natasa';
 
+const friends = ['Peter', 'Bruce', 'Stark', 'Natasa'];
+console.log(friends);
+
+const years = New Array(1293, 8493, 4520, 1220,2002);
 
 
 
