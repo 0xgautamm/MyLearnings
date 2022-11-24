@@ -221,29 +221,41 @@ const friend04 = 'Natasa';
 const friends = ['Peter', 'Bruce', 'Stark', 'Natasa'];
 console.log(friends);
 
-const years = new Array (1293, 8493, 4520, 1220,2002);
+const yea = new Array (1293, 8493, 4520, 1220,2002);
 // ARRAY are zero based count...like peter is @0, bruce is @01, stark is @03, natasa is @04.....like this ,, so on console.log
 
 console.log(friends[0]);
 console.log(friends[02]);
 
 console.log(friends.length);
-// friends.length is formal counting i.e 1,2,3,4,5,,,etc,,...so here .length take the number '4'as final result..
+// friends.length is formal counting i.e 1,2,3,4,5,,,etc,,...so here .length take the number '4'as final result in friends..
 
 console.log(friends[friends.length - 2]);
-after having (friends) means it become ARRAY  and [.length-2] means 4-2 =2 and this 2 will count as per ARRAY..i.e 02 is the stark
+// after having (friends) means it become ARRAY  and [.length-2] means 4-2 =2 and this 2 will count as per ARRAY..i.e 02 is the stark
+
+friends[03]= 'Steve Rogers';
+console.log(friends);
+
+const nameFirst = 'Armour Rhody';
+const rhody = [nameFirst, 'captain of deffence' , 2038-1995, 'suit owner', friends];
+console.log(rhody);
+console.log(rhody.length);
 
 
+const calAge= function (birthYear){
+    return 2034-birthYear;}
 
 
+    const years =  [1793, 9493, 1920, 1220,2002];
+  
+const age1 = calAge(years[2]);
+const age2= calAge(years[04]);
+const age3= calAge(years[years.length-2]);
+console.log(age1, age2, age3); 
 
-
-
-
-
-
-
-
+const ages = [ calAge(years[2]) , age2 , calAge(years[years.length-2])
+]
+console.log(ages);
 
 
 
