@@ -308,23 +308,38 @@
 // ................Assignments for intro of Array>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
-const population= [1222, 4352, 6453, 3235];
-console.log(population);
+// const population= [1222, 4352, 6453, 3235];
+// console.log(population);
 
-if(population >=4){
-  console.log('We have only population of 4 countries together')
-} else {
-  console.log('we dont have data')
-}
+// if(population >=4){
+//   console.log('We have only population of 4 countries together')
+// } else {
+//   console.log('we dont have data')
+// }
 
-const percentageOfWorld01= 1222/7900*100 
-const percentageOfWorld02= 4352/7900*100 
-const percentageOfWorld03= 6453/7900*100 
-const percentageOfWorld04= 3235/7900*100 
-console.log(percentageOfWorld01,percentageOfWorld02,percentageOfWorld03,percentageOfWorld04);
+// const percentageOfWorld01= 1222/7900*100 
+// const percentageOfWorld02= 4352/7900*100 
+// const percentageOfWorld03= 6453/7900*100 
+// const percentageOfWorld04= 3235/7900*100 
+// console.log(percentageOfWorld01,percentageOfWorld02,percentageOfWorld03,percentageOfWorld04);
 
+// ................ASSIGNMENTS for methods of array....................
 
+const neighbours = ['China', 'SriLanka', 'Bangladesh'];
+neighbours.push('Utopia');
+neighbours.pop('Utopia');
 
+console.log(neighbours);
+
+if (!neighbours.includes('Germany')){
+  console.log('Probably is not a central European country :D')  
+} 
+
+console.log(neighbours.indexOf('SriLanka'));
+console.log(neighbours.indexOf('Bangladesh'));
+
+neighbours[neighbours.indexOf('China')] = 'Republic of Sweden';
+console.log(neighbours);
 
 
 
