@@ -325,33 +325,59 @@
 
 // ................ASSIGNMENTS for methods of array....................
 
-const neighbours = ['China', 'SriLanka', 'Bangladesh'];
-neighbours.push('Utopia');
-neighbours.pop('Utopia');
+// const neighbours = ['China', 'SriLanka', 'Bangladesh'];
+// neighbours.push('Utopia');
+// neighbours.pop('Utopia');
 
-console.log(neighbours);
+// console.log(neighbours);
 
-if (!neighbours.includes('Germany')){
-  console.log('Probably is not a central European country :D')  
-} 
+// if (!neighbours.includes('Germany')){
+//   console.log('Probably is not a central European country :D')  
+// } 
 
-console.log(neighbours.indexOf('SriLanka'));
-console.log(neighbours.indexOf('Bangladesh'));
+// console.log(neighbours.indexOf('SriLanka'));
+// console.log(neighbours.indexOf('Bangladesh'));
 
-neighbours[neighbours.indexOf('China')] = 'Republic of Sweden';
-console.log(neighbours);
+// neighbours[neighbours.indexOf('China')] = 'Republic of Sweden';
+// console.log(neighbours);
+
+// .....................CODING CHALLENGE-02 from FUNDA-02.................
+
+const calcTip = function(billValue ){
+  console.log(billValue);
+  const tipsAmount= `The total tip bill value is ${billValue*(15/100)}`
+ 
+  return tipsAmount
+}
+
+const finalTip= calcTip(100);
+console.log(finalTip);
+
+const bills = [125 , 555, 44]
+console.log(bills);
+
+const tipValue0= [125];
+console.log( calcTip(tipValue0) );
+
+const tipValue01 = function(billValue ){
+  console.log(billValue);
+  const tipsValueCalc= `The total tip bill value is ${billValue*(20/100)}`
+ 
+  return tipsValueCalc
+}
+const finalTip01= tipValue01(555);
+console.log(finalTip01);
 
 
+const tipValue02= [44]
+console.log( tipValue01(tipValue02));
+console.log(bills[02])
 
+const total = [143.75, 666, 52.8]
+console.log( total[0])
+console.log( total[1])
 
-
-
-
-
-
-
-
-
+console.log( total[2])
 
 
 
