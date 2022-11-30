@@ -424,12 +424,12 @@ const gautam ={
   console.log(gautam);
 
 
-  *use of DOT and BRACKET as the connection regards to keyName and only difference is.... BRACKET has to be with '' and any expression need to be filled ...
+  use of DOT and BRACKET as the connection regards to keyName and only difference is.... BRACKET has to be with '' and any expression need to be filled ...
 
   console.log(gautam.lastName);
   console.log(gautam['lastName']);
 
-  *when we remake or compute the keyname then we have to use BRACKET and when we simply use the keyname we'll use DOT ,like.....
+  when we remake or compute the keyname then we have to use BRACKET and when we simply use the keyname we'll use DOT ,like.....
 
   const nameKey = 'Name';
   console.log(gautam['first'+ nameKey]);
