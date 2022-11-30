@@ -424,12 +424,12 @@ const gautam ={
   console.log(gautam);
 
 
-  use of DOT and BRACKET as the connection regards to keyName and only difference is.... BRACKET has to be with '' and any expression need to be filled ...
+  // use of DOT and BRACKET as the connection regards to keyName and only difference is.... BRACKET has to be with '' and any expression need to be filled ...
 
   console.log(gautam.lastName);
   console.log(gautam['lastName']);
 
-  when we remake or compute the keyname then we have to use BRACKET and when we simply use the keyname we'll use DOT ,like.....
+  // when we remake or compute the keyname then we have to use BRACKET and when we simply use the keyname we'll use DOT ,like.....
 
   const nameKey = 'Name';
   console.log(gautam['first'+ nameKey]);
@@ -438,7 +438,14 @@ const gautam ={
   const interphaseWindow=prompt('what do you want to know about Gautam Arora? Did you wanna know about his firstname , lastname, age, job, or about the friends. Mention that you are not a robot');
 
   console.log(interphaseWindow);
+  console.log(gautam.interphaseWindow) this will not work bcuzz gautam dont have any interphaseWindow element in their content.....
+   console.log(gautam[interphaseWindow]);
 
+   if(gautam[interphaseWindow]){
+      console.log(gautam[interphaseWindow])
+   } else {
+      console.log('wrong reqest!! please try to find soemthing that we restore')
+   }
 
 
 
