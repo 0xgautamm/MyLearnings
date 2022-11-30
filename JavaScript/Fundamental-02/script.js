@@ -380,25 +380,25 @@
 // console.log( total[2])
 
 //............. OBJECTS -:2ND METHO OF ARRAY.............
-OBJECT -: it use in defining the NAME of the array 
+// OBJECT -: it use in defining the KEY-NAME of the array 
 
 const gautamArray = [
-  gaurav
-  arora
-  2043-1996
-  teacher
+  'gaurav',
+  'arora',
+  2043 - 1996,
+  'teacher',
   ['peter', 'jack ', 'thomas']
 ];
 
 
-#object below one
+// #object below one
 
 const gautam ={
- firstName = 'Gautam'
- lastName= 'Arora '
-age = 2043-1996
- job = 'teacher'
-firends= ['peter', 'jack ', 'thomas']
+ firstName : 'Gautam',
+ lastName: 'Arora ',
+age: 2043-1996,
+ job: 'Teacher',
+firends: ['peter', 'jack ', 'thomas']
 };
 
 
