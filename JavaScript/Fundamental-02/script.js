@@ -438,7 +438,7 @@ const gautam ={
   const interphaseWindow=prompt('what do you want to know about Gautam Arora? Did you wanna know about his firstname , lastname, age, job, or about the friends. Mention that you are not a robot');
 
   console.log(interphaseWindow);
-  console.log(gautam.interphaseWindow) this will not work bcuzz gautam dont have any interphaseWindow element in their content.....
+//   console.log(gautam.interphaseWindow) this will not work bcuzz gautam dont have any interphaseWindow element in their content.....
    console.log(gautam[interphaseWindow]);
 
    if(gautam[interphaseWindow]){
@@ -447,7 +447,12 @@ const gautam ={
       console.log('wrong reqest!! please try to find soemthing that we restore')
    }
 
+gautam.location = 'India';
+gautam['instagram']= '@gautam___this_side';
+ console.log(gautam);
 
+
+ console.log(`${gautam.firstName} has ${gautam.firends.length} friends. and his best friend name is ${gautam.firends[0]}.`)
 
 
 
