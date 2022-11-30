@@ -382,30 +382,58 @@
 //............. OBJECTS -:2ND METHO OF ARRAY.............
 // OBJECT -: it use in defining the KEY-NAME of the array 
 
-const gautamArray = [
-  'gaurav',
-  'arora',
-  2043 - 1996,
-  'teacher',
-  ['peter', 'jack ', 'thomas']
-];
+// const gautamArray = [
+//   'gaurav',
+//   'arora',
+//   2043 - 1996,
+//   'teacher',
+//   ['peter', 'jack ', 'thomas']
+// ];
+// console.log(gautamArray);
 
+// // #object below one
 
-// #object below one
+// const gautam ={
+//  firstName : 'Gautam',
+//  lastName: 'Arora ',
+// age: 2043-1996,
+//  job: 'Teacher',
+// firends: ['peter', 'jack ', 'thomas']
+// };
+// console.log(gautam);
+// // ...........assignments- objects........
+
+// const myCountry= {
+//  country : 'India',
+//  capital : 'Delhi',
+//  population: '12 Million',
+// language: 'Hindi',
+// neighbours:['China', 'Nepal', 'Srilanka','Bangladesh']
+// };
+// console.log(myCountry);
+
+// .........  DOT AND BRACKET Notation.............
 
 const gautam ={
- firstName : 'Gautam',
- lastName: 'Arora ',
-age: 2043-1996,
- job: 'Teacher',
-firends: ['peter', 'jack ', 'thomas']
-};
+   firstName : 'Gautam',
+   lastName: 'Arora ',
+  age: 2043-1996,
+   job: 'Teacher',
+  firends: ['peter', 'jack ', 'thomas']
+  };
+  console.log(gautam);
 
 
+  *use of DOT and BRACKET as the connection regards to keyName and only difference is.... BRACKET has to be with '' and any expression need to be filled ...
 
+  console.log(gautam.lastName);
+  console.log(gautam['lastName']);
 
+  *when we remake or compute the keyname then we have to use BRACKET and when we simply use the keyname we'll use DOT ,like.....
 
-
+  const nameKey = 'Name';
+  console.log(gautam['first'+ nameKey]);
+  console.log(gautam['last'+ nameKey]);
 
 
 
