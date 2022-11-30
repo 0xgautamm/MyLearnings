@@ -418,7 +418,7 @@ const gautam ={
    firstName : 'Gautam',
    lastName: 'Arora ',
   age: 2043-1996,
-   job: 'Teacher',
+   job : 'Teacher',
   firends: ['peter', 'jack ', 'thomas']
   };
   console.log(gautam);
@@ -434,6 +434,10 @@ const gautam ={
   const nameKey = 'Name';
   console.log(gautam['first'+ nameKey]);
   console.log(gautam['last'+ nameKey]);
+  
+  const interphaseWindow=prompt('what do you want to know about Gautam Arora? Did you wanna know about his firstname , lastname, age, job, or about the friends. Mention that you are not a robot');
+
+  console.log(interphaseWindow);
 
 
 
