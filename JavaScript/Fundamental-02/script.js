@@ -343,46 +343,63 @@
 
 // .....................CODING CHALLENGE-02 from FUNDA-02.................
 
-const calcTip = function(billValue ){
-  console.log(billValue);
-  const tipsAmount= `The total tip bill value is ${billValue*(15/100)}`
+// const calcTip = function(billValue ){
+//   console.log(billValue);
+//   const tipsAmount= `The total tip bill value is ${billValue*(15/100)}`
  
-  return tipsAmount
-}
+//   return tipsAmount
+// }
 
-const finalTip= calcTip(100);
-console.log(finalTip);
+// const finalTip= calcTip(100);
+// console.log(finalTip);
 
-const bills = [125 , 555, 44]
-console.log(bills);
+// const bills = [125 , 555, 44]
+// console.log(bills);
 
-const tipValue0= [125];
-console.log( calcTip(tipValue0) );
+// const tipValue0= [125];
+// console.log( calcTip(tipValue0) );
 
-const tipValue01 = function(billValue ){
-  console.log(billValue);
-  const tipsValueCalc= `The total tip bill value is ${billValue*(20/100)}`
+// const tipValue01 = function(billValue ){
+//   console.log(billValue);
+//   const tipsValueCalc= `The total tip bill value is ${billValue*(20/100)}`
  
-  return tipsValueCalc
-}
-const finalTip01= tipValue01(555);
-console.log(finalTip01);
+//   return tipsValueCalc
+// }
+// const finalTip01= tipValue01(555);
+// console.log(finalTip01);
 
 
-const tipValue02= [44]
-console.log( tipValue01(tipValue02));
-console.log(bills[02])
+// const tipValue02= [44]
+// console.log( tipValue01(tipValue02));
+// console.log(bills[02])
 
-const total = [143.75, 666, 52.8]
-console.log( total[0])
-console.log( total[1])
+// const total = [143.75, 666, 52.8]
+// console.log( total[0])
+// console.log( total[1])
 
-console.log( total[2])
+// console.log( total[2])
+
+//............. OBJECTS -:2ND METHO OF ARRAY.............
+OBJECT -: it use in defining the NAME of the array 
+
+const gautamArray = [
+  gaurav
+  arora
+  2043-1996
+  teacher
+  ['peter', 'jack ', 'thomas']
+];
 
 
+#object below one
 
-
-
+const gautam ={
+ firstName = 'Gautam'
+ lastName= 'Arora '
+age = 2043-1996
+ job = 'teacher'
+firends= ['peter', 'jack ', 'thomas']
+};
 
 
 
