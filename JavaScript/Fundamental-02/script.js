@@ -455,25 +455,45 @@
 //  console.log(`${gautam.firstName} has ${gautam.firends.length} friends. and his best friend name is ${gautam.firends[0]}.`)
 
 // .............assignments for Dot and Bracket........
- const myCountry= {
-    country : 'India',
-    capital : 'Delhi',
-    population: '12 Million',
-   language: 'Hindi',
-   neighbours:['China', 'Nepal', 'Srilanka','Bangladesh', 'japan', 'sikkim']
-   };
-   console.log(`${myCountry.country} has ${myCountry.population} ${myCountry.language}-speaking people, ${myCountry.neighbours.length}neighbouring countries and a capital called ${myCountry.capital}.`);
+//  const myCountry= {
+//     country : 'India',
+//     capital : 'Delhi',
+//     population: '12 Million',
+//    language: 'Hindi',
+//    neighbours:['China', 'Nepal', 'Srilanka','Bangladesh', 'japan', 'sikkim']
+//    };
+//    console.log(`${myCountry.country} has ${myCountry.population} ${myCountry.language}-speaking people, ${myCountry.neighbours.length}neighbouring countries and a capital called ${myCountry.capital}.`);
    
-   myCountry.population += 2;
-   console.log(myCountry.population);
+//    myCountry.population += 2;
+//    console.log(myCountry.population);
 
-   myCountry['population'] -= 2;
-   console.log(myCountry.population)
+//    myCountry['population'] -= 2;
+//    console.log(myCountry.population)
+
+// .....................OBJECT METHOD..........
+
+const gautam ={
+     firstName : 'Gautam',
+     lastName: 'Arora ',
+    birthYear: 1998,
+     job : 'Teacher',
+    firends: ['peter', 'jack ', 'thomas'],
+    hasDriverLicense : true,
+ 
+calcAge:function(){
+  return 2036-this.birthYear
+}
 
 
+OR this can also be a code 
 
 
+    calcAge:function(birthYear){
+      return 2036-birthYear
+    }
+  };
 
+console.log(gautam.calcAge(1998));
 
 
 
