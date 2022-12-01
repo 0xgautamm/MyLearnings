@@ -414,50 +414,61 @@
 
 // .........  DOT AND BRACKET Notation.............
 
-const gautam ={
-   firstName : 'Gautam',
-   lastName: 'Arora ',
-  age: 2043-1996,
-   job : 'Teacher',
-  firends: ['peter', 'jack ', 'thomas']
-  };
-  console.log(gautam);
+// const gautam ={
+//    firstName : 'Gautam',
+//    lastName: 'Arora ',
+//   age: 2043-1996,
+//    job : 'Teacher',
+//   firends: ['peter', 'jack ', 'thomas']
+//   };
+//   console.log(gautam);
 
 
-  // use of DOT and BRACKET as the connection regards to keyName and only difference is.... BRACKET has to be with '' and any expression need to be filled ...
+//   // use of DOT and BRACKET as the connection regards to keyName and only difference is.... BRACKET has to be with '' and any expression need to be filled ...
 
-  console.log(gautam.lastName);
-  console.log(gautam['lastName']);
+//   console.log(gautam.lastName);
+//   console.log(gautam['lastName']);
 
-  // when we remake or compute the keyname then we have to use BRACKET and when we simply use the keyname we'll use DOT ,like.....
+//   // when we remake or compute the keyname then we have to use BRACKET and when we simply use the keyname we'll use DOT ,like.....
 
-  const nameKey = 'Name';
-  console.log(gautam['first'+ nameKey]);
-  console.log(gautam['last'+ nameKey]);
+//   const nameKey = 'Name';
+//   console.log(gautam['first'+ nameKey]);
+//   console.log(gautam['last'+ nameKey]);
   
-  const interphaseWindow=prompt('what do you want to know about Gautam Arora? Did you wanna know about his firstname , lastname, age, job, or about the friends. Mention that you are not a robot');
+//   const interphaseWindow=prompt('what do you want to know about Gautam Arora? Did you wanna know about his firstname , lastname, age, job, or about the friends. Mention that you are not a robot');
 
-  console.log(interphaseWindow);
-//   console.log(gautam.interphaseWindow) this will not work bcuzz gautam dont have any interphaseWindow element in their content.....
-   console.log(gautam[interphaseWindow]);
+//   console.log(interphaseWindow);
+// //   console.log(gautam.interphaseWindow) this will not work bcuzz gautam dont have any interphaseWindow element in their content.....
+//    console.log(gautam[interphaseWindow]);
 
-   if(gautam[interphaseWindow]){
-      console.log(gautam[interphaseWindow])
-   } else {
-      console.log('wrong reqest!! please try to find soemthing that we restore')
-   }
+//    if(gautam[interphaseWindow]){
+//       console.log(gautam[interphaseWindow])
+//    } else {
+//       console.log('wrong reqest!! please try to find soemthing that we restore')
+//    }
 
-gautam.location = 'India';
-gautam['instagram']= '@gautam___this_side';
- console.log(gautam);
-
-
- console.log(`${gautam.firstName} has ${gautam.firends.length} friends. and his best friend name is ${gautam.firends[0]}.`)
+// gautam.location = 'India';
+// gautam['instagram']= '@gautam___this_side';
+//  console.log(gautam);
 
 
+//  console.log(`${gautam.firstName} has ${gautam.firends.length} friends. and his best friend name is ${gautam.firends[0]}.`)
 
+// .............assignments for Dot and Bracket........
+ const myCountry= {
+    country : 'India',
+    capital : 'Delhi',
+    population: '12 Million',
+   language: 'Hindi',
+   neighbours:['China', 'Nepal', 'Srilanka','Bangladesh', 'japan', 'sikkim']
+   };
+   console.log(`${myCountry.country} has ${myCountry.population} ${myCountry.language}-speaking people, ${myCountry.neighbours.length}neighbouring countries and a capital called ${myCountry.capital}.`);
+   
+   myCountry.population += 2;
+   console.log(myCountry.population);
 
-
+   myCountry['population'] -= 2;
+   console.log(myCountry.population)
 
 
 
