@@ -471,7 +471,7 @@
 //    console.log(myCountry.population)
 
 // .....................OBJECT METHOD..........
-when a funtion is attached to the OBJECT then it is called METHOD...
+// when a funtion is attached to the OBJECT then it is called METHOD...
 const gautam ={
      firstName : 'Gautam',
      lastName: 'Arora ',
@@ -481,9 +481,10 @@ const gautam ={
     hasDriverLicense : true,
  
 calcAge:function(){
+  console.log(this);
   return 2036 - this.birthYear
 }
-(.THIS notation is equal to the object on which the method is called...like here the .this notation is gautam)
+// (.THIS notation is equal to the object on which the method is called...like here the .this notation is gautam)
 
 // OR this can also be a code 
 
@@ -494,6 +495,12 @@ calcAge:function(){
   };
 
 console.log(gautam.calcAge());
+console.log(gautam.calcAge());
+
+console.log(gautam.calcAge());
+console.log(gautam.calcAge());
+
+
 
 
 
