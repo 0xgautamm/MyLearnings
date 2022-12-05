@@ -480,10 +480,24 @@ const gautam ={
     firends: ['peter', 'jack ', 'thomas'],
     hasDriverLicense : true,
  
+// calcAge:function(){
+//   console.log(this);
+//   return 2036 - this.birthYear
+// }
+
+  
 calcAge:function(){
-  console.log(this);
-  return 2036 - this.birthYear
+  this.age =2036 - this.birthYear;
+  return this.age;},
+
+getSummary: function(){
+  return `${this.firstName} is a ${this.calcAge()} years old person who is a ${this.job} by profession. And he has ${this.hasDriverLicense ? 'a':'no'} driving license and his surname is ${this.lastName}`
 }
+
+
+
+};
+
 // (.THIS notation is equal to the object on which the method is called...like here the .this notation is gautam)
 
 // OR this can also be a code 
@@ -492,25 +506,26 @@ calcAge:function(){
     // calcAge:function(birthYear){
     //   return 2036-birthYear
     // }
-  };
+  
 
 console.log(gautam.calcAge());
-console.log(gautam.calcAge());
+console.log(gautam.age);
+console.log(gautam.age);
+console.log(gautam.age);
 
-console.log(gautam.calcAge());
-console.log(gautam.calcAge());
+console.log(gautam.getSummary());
 
-
-
-
-<p>there is car~</p>
+//....................... assignments for METHOD AND THIS................
 
 
 
-
-
-
-
+const myCountry= {
+ country : 'India',
+ capital : 'Delhi',
+ population: '12 Million',
+language: 'Hindi',
+neighbours:['China', 'Nepal', 'Srilanka','Bangladesh']
+};
 
 
 
