@@ -471,67 +471,71 @@
 //    console.log(myCountry.population)
 
 // .....................OBJECT METHOD..........
-// when a funtion is attached to the OBJECT then it is called METHOD...
-const gautam ={
-     firstName : 'Gautam',
-     lastName: 'Arora ',
-    birthYear: 1998,
-     job : 'Teacher',
-    firends: ['peter', 'jack ', 'thomas'],
-    hasDriverLicense : true,
+// // when a funtion is attached to the OBJECT then it is called METHOD...
+// const gautam ={
+//      firstName : 'Gautam',
+//      lastName: 'Arora ',
+//     birthYear: 1998,
+//      job : 'Teacher',
+//     firends: ['peter', 'jack ', 'thomas'],
+//     hasDriverLicense : true,
  
+// // calcAge:function(){
+// //   console.log(this);
+// //   return 2036 - this.birthYear
+// // }
+
+  
 // calcAge:function(){
-//   console.log(this);
-//   return 2036 - this.birthYear
+//   this.age =2036 - this.birthYear;
+//   return this.age;},
+
+// getSummary: function(){
+//   return `${this.firstName} is a ${this.calcAge()} years old person who is a ${this.job} by profession. And he has ${this.hasDriverLicense ? 'a':'no'} driving license and his surname is ${this.lastName}`
 // }
 
-  
-calcAge:function(){
-  this.age =2036 - this.birthYear;
-  return this.age;},
-
-getSummary: function(){
-  return `${this.firstName} is a ${this.calcAge()} years old person who is a ${this.job} by profession. And he has ${this.hasDriverLicense ? 'a':'no'} driving license and his surname is ${this.lastName}`
-}
 
 
+// };
 
-};
+// // (.THIS notation is equal to the object on which the method is called...like here the .this notation is gautam)
 
-// (.THIS notation is equal to the object on which the method is called...like here the .this notation is gautam)
-
-// OR this can also be a code 
+// // OR this can also be a code 
 
 
-    // calcAge:function(birthYear){
-    //   return 2036-birthYear
-    // }
+//     // calcAge:function(birthYear){
+//     //   return 2036-birthYear
+//     // }
   
 
-console.log(gautam.calcAge());
-console.log(gautam.age);
-console.log(gautam.age);
-console.log(gautam.age);
+// console.log(gautam.calcAge());
+// console.log(gautam.age);
+// console.log(gautam.age);
+// console.log(gautam.age);
 
-console.log(gautam.getSummary());
+// console.log(gautam.getSummary());
 
-//....................... assignments for METHOD AND THIS................
+// //....................... assignments for METHOD AND THIS................
 
-
-
-const myCountry= {
+const myCountry2= {
  country : 'India',
- capital : 'Delhi',
- population: '12 Million',
-language: 'Hindi',
-neighbours:['China', 'Nepal', 'Srilanka','Bangladesh']
-};
+ capital : 'Delhi',  
+ population: '12 Million', 
+ language: 'Hindi', 
+ neighbours:['China', 'Nepal', 'Srilanka','Bangladesh'],
+ isLand:true,
 
+ describe: function(){
+return ( `${this.country} has ${this.population} ${this.language}-speaking people, ${this.neighbours.length}neighbouring countries and a capital called ${this.capital}.` )  
+ },
 
+ checkIsland : function(){
+  return `${this.country} has ${this.isLand ?'a':'not'} island`
+ }
 
-
-
-
+}
+console.log(myCountry2.describe());
+console.log(myCountry2.checkIsland());
 
 
 
