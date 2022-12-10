@@ -517,30 +517,59 @@
 
 // //....................... assignments for METHOD AND THIS................
 
-const myCountry2= {
- country : 'India',
- capital : 'Delhi',  
- population: '12 Million', 
- language: 'Hindi', 
- neighbours:['China', 'Nepal', 'Srilanka','Bangladesh'],
- isLand:true,
+// const myCountry2= {
+//  country : 'India',
+//  capital : 'Delhi',  
+//  population: '12 Million', 
+//  language: 'Hindi', 
+//  neighbours:['China', 'Nepal', 'Srilanka','Bangladesh'],
+//  isLand:true,
 
- describe: function(){
-return ( `${this.country} has ${this.population} ${this.language}-speaking people, ${this.neighbours.length}neighbouring countries and a capital called ${this.capital}.` )  
- },
+//  describe: function(){
+// return ( `${this.country} has ${this.population} ${this.language}-speaking people, ${this.neighbours.length}neighbouring countries and a capital called ${this.capital}.` )  
+//  },
 
- checkIsland : function(){
-  return `${this.country} has ${this.isLand ?'a':'not'} island`
- }
+//  checkIsland : function(){
+//   return `${this.country} has ${this.isLand ?'a':'not'} island`
+//  }
 
+// }
+// console.log(myCountry2.describe());
+// console.log(myCountry2.checkIsland());
+
+
+// CODING CHALLENGE-03 from FINDA02
+
+
+const mark={
+
+  fullName : 'Mark Miller',
+  mass: 78,
+  height:1.69,
+  calcBMI:function(){
+    this.index= this.mass/this.height**2
+    return this.index
+  }
 }
-console.log(myCountry2.describe());
-console.log(myCountry2.checkIsland());
+console.log(mark.calcBMI());
 
+const john={
+  
+  fullName02 : 'John Smith',
+  mass02:92,
+  height02:1.95,
+  calcBMI02:function(){
+    this.index2= this.mass02/this.height02**2
+    return this.index2
+  }
+}
+console.log(john.calcBMI02());
 
-
-
-
+if(mark.index > john.index2){
+  console.log(`${mark.fullName}'s BMI (${mark.index}) is higher than ${john.fullName02}'s (${john.index2}) BMI`)
+}  else if (john.index2 > mark.index){
+  console.log(`${mark.fullName}'s BMI (${mark.index}) is lower than ${john.fullName02}'s (${john.index2}) BMI`)
+}
 
 
 
