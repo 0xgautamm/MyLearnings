@@ -576,7 +576,7 @@
 
 // LOOP = loops help the code to run n run again untill we tell to stop 
 // it has 3 part 
-1= initial value of the counter  and here we create a variable and also state the number from where you want to start like example below
+// 1= initial value of the counter  and here we create a variable and also state the number from where you want to start like example below
 
 // 2= here we  evaluate the value of repitation  
 // and 2nd part will executed if the iteration is true and if itreration is false then it'll not executed any code .... 
@@ -586,11 +586,15 @@
 // and for changing in the console, we had to make it a template string by using `` and ${}......
 
 
-for(let rep = 8 ; rep <= 13; rep++ ){
-  console.log(`lifting weigh for repitation ${rep}`);
-} 
+// for(let rep = 1 ; rep <= 23; rep++ ){
+//   console.log(`lifting weigh for repitation ${rep}`);
+// } 
 
+// ..........................assignments............................
 
+for(let voter= 1; voter <=50 ; voter++ ){
+  console.log(`Voter nmuber ${voter} is currently voting`)
+}
 
 
 
