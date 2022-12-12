@@ -538,41 +538,49 @@
 // console.log(myCountry2.checkIsland());
 
 
-// CODING CHALLENGE-03 from FINDA02
+//..................... CODING CHALLENGE-03 from FINDA02....................................
 
 
-const mark={
+// const mark={
 
-  fullName : 'Mark Miller',
-  mass: 78,
-  height:1.69,
-  calcBMI:function(){
-    this.index= this.mass/this.height**2
-    return this.index
-  }
-}
-console.log(mark.calcBMI());
+//   fullName : 'Mark Miller',
+//   mass: 780,
+//   height:13.69,
+//   calcBMI:function(){
+//     this.index= this.mass/this.height**2
+//     return this.index
+//   }
+// }
+// console.log(mark.calcBMI());
 
-const john={
+// const john={
   
-  fullName02 : 'John Smith',
-  mass02:92,
-  height02:1.95,
-  calcBMI02:function(){
-    this.index2= this.mass02/this.height02**2
-    return this.index2
-  }
-}
-console.log(john.calcBMI02());
+//   fullName02 : 'John Smith',
+//   mass02:92,
+//   height02:1.95,
+//   calcBMI02:function(){
+//     this.index2= this.mass02/this.height02**2
+//     return this.index2
+//   }
+// }
+// console.log(john.calcBMI02());
 
-if(mark.index > john.index2){
-  console.log(`${mark.fullName}'s BMI (${mark.index}) is higher than ${john.fullName02}'s (${john.index2}) BMI`)
-}  else if (john.index2 > mark.index){
-  console.log(`${mark.fullName}'s BMI (${mark.index}) is lower than ${john.fullName02}'s (${john.index2}) BMI`)
-}
+// if(mark.index > john.index2){
+//   console.log(`${mark.fullName}'s BMI (${mark.index}) is higher than ${john.fullName02}'s (${john.index2}) BMI`)
+// }  else if (john.index2 > mark.index){
+//   console.log(`${mark.fullName}'s BMI (${mark.index}) is lower than ${john.fullName02}'s (${john.index2}) BMI`)
+// }
 
 
+// LOOP = loops help the code to run n run again untill we tell to stop 
+// it has 3 part 
+// 1= initial value of the counter  and here we create a variable
 
+// 2= here we  evaluate the value of repitation  
+// and 2nd part will executed if the iteration is true and if itreration is false then it'll not executed any code .... 
+
+// 3=it says to increase the number of counter 
+ my nae is john 
 
 
 
