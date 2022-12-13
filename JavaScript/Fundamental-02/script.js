@@ -609,17 +609,20 @@ const gautamArray = [
   'jack'
 ];
 
+const type= [];
 
 for(let i= 0; i < gautamArray.length ; i++){
-  console.log(gautamArray[i])
+  console.log(gautamArray[i], typeof gautamArray[i])
+
+type[i] = typeof gautamArray[i]
+
 };
-by adding .length in for loop ,makes it comfort to count the elements of object without typed manually 
+console.log(type)
+// by adding .length in for loop ,makes it comfort to count the elements of object without typed manually 
 
-
-
-
-
-
+#Filling the type array 
+create an empty object
+then log to the console in for loop 
 
 
 
