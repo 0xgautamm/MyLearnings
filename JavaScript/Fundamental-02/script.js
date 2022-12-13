@@ -634,15 +634,23 @@ for(let i = 0; i < years.length ; i++){
 };
 console.log(ages);
 
-CONTINUE AND BREAK 
-CONTINUE-: is to exit the current iteration of the loop and continue the next one 
-BREAK-: is to terminate(end) the whole loop 
+// CONTINUE AND BREAK 
+// CONTINUE-: is to exit the current iteration of the loop and continue the next one 
+// BREAK-: is to terminate(end) the whole loop 
 
-
+console.log(---ONLY STRINGS---)
 for(let i= 0; i < gautamArray.length ; i++){
 
   if(typeof gautamArray[i] !=='string') continue; 
-  console.log(gautamArray[i], typeof gautamArray[i])
+  console.log(gautamArray[i], typeof gautamArray[i]);
+}
+
+
+console.log(---BREAK WITH NUMBER---)
+for(let i= 0; i < gautamArray.length ; i++){
+
+  if(typeof gautamArray[i] ==='number') continue; 
+  console.log(gautamArray[i], typeof gautamArray[i]);
 }
 
 
