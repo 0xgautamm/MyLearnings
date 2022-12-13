@@ -592,15 +592,28 @@
 
 // ..........................assignments............................
 
-for(let voter= 1; voter <=50 ; voter++ ){
-  console.log(`Voter nmuber ${voter} is currently voting`)
-}
+// for(let voter= 1; voter <=50 ; voter++ ){
+//   console.log(`Voter nmuber ${voter} is currently voting`)
+// }
+
+// ..................LOOP for ARRAYs.........................
 
 
+const gautamArray = [
+  'gaurav',
+  'arora',
+  2043 - 1996,
+  'teacher',
+  ['peter', 'jack ', 'thomas'],
+  true,
+  'jack'
+];
 
 
-
-
+for(let i= 0; i < gautamArray.length ; i++){
+  console.log(gautamArray[i])
+};
+by adding .length in for loop ,makes it comfort to count the elements of object without typed manually 
 
 
 
