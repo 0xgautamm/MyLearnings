@@ -599,60 +599,70 @@
 // ..................LOOP for ARRAYs.........................
 
 
-const gautamArray = [
-  'gaurav',
-  'arora',
-  2043 - 1996,
-  'teacher',
-  ['peter', 'jack ', 'thomas'],
-  true,
-  'jack'
-];
+// const gautamArray = [
+//   'gaurav',
+//   'arora',
+//   2043 - 1996,
+//   'teacher',
+//   ['peter', 'jack ', 'thomas'],
+//   true,
+//   'jack'
+// ];
 
-const type= [];
+// const type= [];
 
-for(let i= 0; i < gautamArray.length ; i++){
-  console.log(gautamArray[i], typeof gautamArray[i])
+// for(let i= 0; i < gautamArray.length ; i++){
+//   console.log(gautamArray[i], typeof gautamArray[i])
 
-// type[i] = typeof gautamArray[i]
-type.push(typeof gautamArray[i])
+// // type[i] = typeof gautamArray[i]
+// type.push(typeof gautamArray[i])
 
-};
-console.log(type)
-// by adding .length in for loop ,makes it comfort to count the elements of object without typed manually 
+// };
+// console.log(type)
+// // by adding .length in for loop ,makes it comfort to count the elements of object without typed manually 
 
-// #Filling the type array 
-// create an empty object
-// then log to the console in for loop  
-
-
-const years = [1997, 1995,2020,2012,2006];
-const ages = [];
-
-for(let i = 0; i < years.length ; i++){
-  ages.push(2040-years[i])
-};
-console.log(ages);
-
-// CONTINUE AND BREAK 
-// CONTINUE-: is to exit the current iteration of the loop and continue the next one 
-// BREAK-: is to terminate(end) the whole loop 
-
-console.log(---ONLY STRINGS---)
-for(let i= 0; i < gautamArray.length ; i++){
-
-  if(typeof gautamArray[i] !=='string') continue; 
-  console.log(gautamArray[i], typeof gautamArray[i]);
-}
+// // #Filling the type array 
+// // create an empty object
+// // then log to the console in for loop  
 
 
-console.log(---BREAK WITH NUMBER---)
-for(let i= 0; i < gautamArray.length ; i++){
+// const years = [1997, 1995,2020,2012,2006];
+// const ages = [];
 
-  if(typeof gautamArray[i] ==='number') continue; 
-  console.log(gautamArray[i], typeof gautamArray[i]);
-}
+// for(let i = 0; i < years.length ; i++){
+//   ages.push(2040-years[i])
+// };
+// console.log(ages);
 
+// // CONTINUE AND BREAK 
+// // CONTINUE-: is to exit the current iteration of the loop and continue the next one 
+// // BREAK-: is to terminate(end) the whole loop 
+
+// // console.log(---ONLY STRINGS---)
+// for(let i= 0; i < gautamArray.length ; i++){
+
+//   if(typeof gautamArray[i] !=='string') continue; 
+//   console.log(gautamArray[i], typeof gautamArray[i]);
+// }
+
+
+// // console.log(---BREAK WITH NUMBER---)
+// for(let i= 0; i < gautamArray.length ; i++){
+
+//   if(typeof gautamArray[i] ==='number') continue; 
+//   console.log(gautamArray[i], typeof gautamArray[i]);
+// }
+
+// ............assignments for looping of array................
+
+const population= [1222, 4352, 6453, 3235];
+const percent = [];
+
+for(let percent = 0; percent < population.length ; percent++){
+  const perc = percentageOfWorld1(population[i]);
+  percent.push(perc);
+  }
+  console.log(percent);
 
 
 
