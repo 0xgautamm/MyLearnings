@@ -666,7 +666,7 @@
 
 // .....................looping backwards and looping in loops..................
 
-looping backward use the code to run as backward aka from down to up and 
+// looping backward use the code to run as backward aka from down to up and 
 
 const gautam = [
   'gaurav',
@@ -683,8 +683,13 @@ for(let i= gautam.length-1; i >=0 ; i--){
 };
 
 
+for(let exercise= 1; exercise<=4; exercise++){
+  console.log(`-------------starting the great ${exercise}`)
 
-
+for(let rep= 1; rep< 6; rep++){
+  console.log(`Doing the regular and hard workout at gym on ${rep}`)
+}
+};
 
 
 
