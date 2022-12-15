@@ -655,20 +655,32 @@
 
 // ............assignments for looping of array................
 
-const population= [1222, 4352, 6453, 3235];
-const percent = [];
+// const population= [1222, 4352, 6453, 3235];
+// const percent = [];
 
-for(let percent = 0; percent < population.length ; percent++){
-  const perc = percentageOfWorld1(population[i]);
-  percent.push(perc);
-  }
-  console.log(percent);
+// for(let percent = 0; percent < population.length ; percent++){
+//   const perc = percentageOfWorld1(population[i]);
+//   percent.push(perc);
+//   }
+//   console.log(percent);
 
+// .....................looping backwards and looping in loops..................
 
+looping backward use the code to run as backward aka from down to up and 
 
+const gautam = [
+  'gaurav',
+  'arora',
+  2043 - 1996,
+  'teacher',
+  ['peter', 'jack ', 'thomas'],
+  true,
+  'jack'
+];
 
-
-
+for(let i= gautam.length-1; i >=0 ; i--){
+  console.log(i,gautam[i])
+};
 
 
 
