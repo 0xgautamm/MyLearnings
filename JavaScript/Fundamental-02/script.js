@@ -704,18 +704,25 @@
 // ..................while loop.................
 
 
-for(let rep= 1; rep<=15; rep++){
-  console.log(`Doing the regular and hard workout at gym on ${rep}`)
+// for(let rep= 1; rep<=15; rep++){
+//   console.log(`Doing the regular and hard workout at gym on ${rep}`)
+// }
+// while loop is work in the condition whether the statement is true or false 
+
+// let rep=1
+// while (rep <=15){
+//     console.log(`Doing the regular and hard workout at gym on ${rep}`);
+//    rep++
+// }
+
+let dice= Math.trunc(Math.random() *6) +1
+
+while(dice !== 6){
+  console.log(`You rolled a ${dice}`);
+  dice =Math.trunc(Math.random() *6) +1
+if (dice === 6 )console.log(`The dice is gonna to be end...... `)
+
 }
-while loop is work in the condition whether the statement is true or false 
-
-let rep=1
-while (rep <=15){
-    console.log(`Doing the regular and hard workout at gym on ${rep}`);
-   rep++
-}
-
-
 
 
 
