@@ -668,35 +668,52 @@
 
 // looping backward use the code to run as backward aka from down to up and 
 
-const gautam = [
-  'gaurav',
-  'arora',
-  2043 - 1996,
-  'teacher',
-  ['peter', 'jack ', 'thomas'],
-  true,
-  'jack'
-];
+// const gautam = [
+//   'gaurav',
+//   'arora',
+//   2043 - 1996,
+//   'teacher',
+//   ['peter', 'jack ', 'thomas'],
+//   true,
+//   'jack'
+// ];
 
-for(let i= gautam.length-1; i >=0 ; i--){
-  console.log(i,gautam[i])
-};
+// for(let i= gautam.length-1; i >=0 ; i--){
+//   console.log(i,gautam[i])
+// };
 
 
-for(let exercise= 1; exercise<=4; exercise++){
-  console.log(`-------------starting the great ${exercise}`)
+// for(let exercise= 1; exercise<=4; exercise++){
+//   console.log(`-------------starting the great ${exercise}`)
 
-for(let rep= 1; rep< 6; rep++){
+// for(let rep= 1; rep< 6; rep++){
+//   console.log(`Doing the regular and hard workout at gym on ${rep}`)
+// }
+// };
+
+// .....................assignments for backward and loop in loop.................
+
+// const listOfNeighbours=
+// [['Canada', 'Mexico'], ['Spain'], ['Norway', 'Sweden',
+// 'Russia']];
+
+// for(let neig01= listOfNeighbours.length -1; neighbour01>= 0; neig01++ ){
+//   console.log(listOfNeighbours(neig01))
+// }; 
+
+// ..................while loop.................
+
+
+for(let rep= 1; rep<=15; rep++){
   console.log(`Doing the regular and hard workout at gym on ${rep}`)
 }
-};
+while loop is work in the condition whether the statement is true or false 
 
-
-
-
-
-
-
+let rep=1
+while (rep <=15){
+    console.log(`Doing the regular and hard workout at gym on ${rep}`);
+   rep++
+}
 
 
 
