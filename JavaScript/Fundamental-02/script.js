@@ -33,6 +33,7 @@
 
 // // // .............assignments function........................
 
+
 // // function describeCountry (country, population, capitalCity){
 // //   console.log(country,population, capitalCity);
 // //   const data = `${country} has ${population} million of people and its capital city is ${capitalCity}.`;
@@ -50,6 +51,7 @@
 // // ....................................................................................................................................
 
 // // FUNCTIONS declarations vs EXPRESSIONS/////////
+
 
 //  function declaration
 //   function calAge1(birthYear){
@@ -69,7 +71,9 @@
 // const age2 = calAge2(1997);
 // console.log(age1 ,age2) ; 
 
+
 // //.................assignments.............
+
 
 // function percentOfWorld01 (population){ 
 //   return population/7900*100 
@@ -91,7 +95,10 @@
 
 // console.log(finland, ireland, lesbon);
 
+
 //................ ARROW FUNCTIONS.............
+
+
 // const calAge3= birthYear=> 2034- birthYear;
 
 // const age= calAge3(1984);
@@ -107,7 +114,9 @@
 // console.log(yearsUntilRetirement(1998, 'Vinay'));
 // console.log(yearsUntilRetirement(1992, 'Bijoy'));
 
+
 // ......assignments.............
+
 
 // const percentOfWorld03 = population=> population/7900*100
 
@@ -117,7 +126,9 @@
 
 // console.log(india, europe, berlin);
 
+
 // ........function calling the other function...........
+
 
 //  function cutPeiceFruit(fruit){
 //   return fruit*9
@@ -134,7 +145,9 @@
 
 //   console.log(fruitProcessor(3,6));
 
+
 // ,,,,,,,,,ASSIGNMENTS..............
+
 
 // function totalPopulation (population){
 //   return population/100
@@ -152,7 +165,9 @@
 // console.log(describeCountry('Tokyo', 1241));
 // console.log(describeCountry('China', 5341));
 
+
 // ...........REVIEWING FUNCTION...........
+
 
 // const calAge= function (birthYear){
 //   return 2034-birthYear;
@@ -177,6 +192,7 @@
 
 
 // ......................................... CODE CHALLENGE_01 from FUNDA-02.......................................
+
 
 // const calcAverage= (a,b,c) =>(a+b+c)/3;
 // console.log(calcAverage(3,5,7));
@@ -207,6 +223,7 @@
 //   scoreKoalas = calcAverage(23,34,27);
 // console.log(scoreDolphins, scoreKoalas);  
 // checkWinner(scoreDolphins, scoreKoalas);
+
 
 //''''''''''''''''''''''''''''''''''''' ARRAYS ;- THE PART OF DATA STRUCTURE ...............................................
 // ARRAYS =  THIS  helps to contains various values together in a large container called data structure and 
@@ -258,13 +275,17 @@
 // ]
 // console.log(ages);
 
+
 // ..........,,,,,,,,,,,,.,.,.,..Methods of ARRAYS.......,,,,,,,,,,,,,,,,,,
+
 
 // push method-:) it is use to add a new element to END of ARRAY...and here friends.push (.)dots stands for attachments with friends variable..
 
 // const friends = ['Peter', 'Bruce', 'Stark', 'Natasa'];
 
+
 // // add elements>>>>>>>>>>
+
 
 // const newFriend= friends.push('Stephan Strange');
 // console.log(friends);
@@ -277,7 +298,9 @@
 // console.log(friends);
 // console.log(newFriends);
 
+
 // // remove elements>>>>>>>>>>>
+
 
 // // pop-method= is use to remove the LAST element and no need to give any arguement..
 // // shift-method= use to remove FIRST element and no need to give any arguement..
@@ -305,6 +328,7 @@
 //   console.log(friends.includes('Peter'));
 // console.log(friends.includes('Thanos'));
 
+
 // ................Assignments for intro of Array>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
@@ -323,7 +347,9 @@
 // const percentageOfWorld04= 3235/7900*100 
 // console.log(percentageOfWorld01,percentageOfWorld02,percentageOfWorld03,percentageOfWorld04);
 
+
 // ................ASSIGNMENTS for methods of array....................
+
 
 // const neighbours = ['China', 'SriLanka', 'Bangladesh'];
 // neighbours.push('Utopia');
@@ -341,7 +367,9 @@
 // neighbours[neighbours.indexOf('China')] = 'Republic of Sweden';
 // console.log(neighbours);
 
+
 // .....................CODING CHALLENGE-02 from FUNDA-02.................
+
 
 // const calcTip = function(billValue ){
 //   console.log(billValue);
@@ -379,8 +407,10 @@
 
 // console.log( total[2])
 
+
 //............. OBJECTS -:2ND METHO OF ARRAY.............
 // OBJECT -: it use in defining the KEY-NAME of the array 
+
 
 // const gautamArray = [
 //   'gaurav',
@@ -401,6 +431,8 @@
 // firends: ['peter', 'jack ', 'thomas']
 // };
 // console.log(gautam);
+
+
 // // ...........assignments- objects........
 
 // const myCountry= {
@@ -412,7 +444,9 @@
 // };
 // console.log(myCountry);
 
+
 // .........  DOT AND BRACKET Notation.............
+
 
 // const gautam ={
 //    firstName : 'Gautam',
@@ -454,7 +488,9 @@
 
 //  console.log(`${gautam.firstName} has ${gautam.firends.length} friends. and his best friend name is ${gautam.firends[0]}.`)
 
+
 // .............assignments for Dot and Bracket........
+
 //  const myCountry= {
 //     country : 'India',
 //     capital : 'Delhi',
@@ -470,7 +506,9 @@
 //    myCountry['population'] -= 2;
 //    console.log(myCountry.population)
 
+
 // .....................OBJECT METHOD..........
+
 // // when a funtion is attached to the OBJECT then it is called METHOD...
 // const gautam ={
 //      firstName : 'Gautam',
@@ -515,7 +553,9 @@
 
 // console.log(gautam.getSummary());
 
+
 // //....................... assignments for METHOD AND THIS................
+
 
 // const myCountry2= {
 //  country : 'India',
@@ -571,6 +611,7 @@
 //   console.log(`${mark.fullName}'s BMI (${mark.index}) is lower than ${john.fullName02}'s (${john.index2}) BMI`)
 // }
 
+
 // ,,,,,,,,,,,,,,,,,,,,,,LOOP...........................
 
 
@@ -590,11 +631,14 @@
 //   console.log(`lifting weigh for repitation ${rep}`);
 // } 
 
+
 // ..........................assignments............................
+
 
 // for(let voter= 1; voter <=50 ; voter++ ){
 //   console.log(`Voter nmuber ${voter} is currently voting`)
 // }
+
 
 // ..................LOOP for ARRAYs.........................
 
@@ -634,6 +678,7 @@
 // };
 // console.log(ages);
 
+
 // // CONTINUE AND BREAK 
 // // CONTINUE-: is to exit the current iteration of the loop and continue the next one 
 // // BREAK-: is to terminate(end) the whole loop 
@@ -653,7 +698,9 @@
 //   console.log(gautamArray[i], typeof gautamArray[i]);
 // }
 
+
 // ............assignments for looping of array................
+
 
 // const population= [1222, 4352, 6453, 3235];
 // const percent = [];
@@ -664,7 +711,9 @@
 //   }
 //   console.log(percent);
 
+
 // .....................looping backwards and looping in loops..................
+
 
 // looping backward use the code to run as backward aka from down to up and 
 
@@ -691,7 +740,9 @@
 // }
 // };
 
+
 // .....................assignments for backward and loop in loop.................
+
 
 // const listOfNeighbours=
 // [['Canada', 'Mexico'], ['Spain'], ['Norway', 'Sweden',
@@ -700,6 +751,7 @@
 // for(let neig01= listOfNeighbours.length -1; neighbour01>= 0; neig01++ ){
 //   console.log(listOfNeighbours(neig01))
 // }; 
+
 
 // ..................while loop.................
 
@@ -715,18 +767,34 @@
 //    rep++
 // }
 
-let dice= Math.trunc(Math.random() *6) +1
+// let dice= Math.trunc(Math.random() *6) +1
 
-while(dice !== 6){
-  console.log(`You rolled a ${dice}`);
-  dice =Math.trunc(Math.random() *6) +1
-if (dice === 6 )console.log(`The dice is gonna to be end...... `)
+// while(dice !== 6){
+//   console.log(`You rolled a ${dice}`);
+//   dice =Math.trunc(Math.random() *6) +1
+// if (dice === 6 )console.log(`The dice is gonna to be end...... `)
 
+// }
+
+,,,,,,,,...........developers skills-05.toExponential..............,,,,,,,,,,,,,,,,,,
+
+
+const temperature= [3,-2,-6,-1,'error',9,13,17,15,14,9,5]
+
+const calcTempAmplitude = function (temps){
+ let max = temps[0];
+ let min = temps[0]
+ for(let i= 0; i> temps.length; i++){
+
+  const curTemp = temps[i];
+
+   if (curTemp> max) max= curTemp;
+   if (curTemp<min) min = curTemp;
+
+ }
+console.log(max, min);
 }
-
-
-
-
+calcTempAmplitude([3,7,2,8,98])
 
 
 
