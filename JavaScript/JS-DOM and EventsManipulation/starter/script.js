@@ -17,10 +17,11 @@
 // EventListerner =: any action done on the page is called an Event like moving mouse, clicking button, key press
 //                       and EventListerner is reacting to certain events happened on screen 
 
-const number= Math.trunc(Math.random()*20)+1
+const secretNumber= Math.trunc(Math.random()*20)+1
+document.querySelector('.number').textContent= secretNumber;
 
-Math.trunc coded because of removing decimals given by *20.................
-*20 give its boundry number only to 19.9999999999 and just by adding 1 to code give its to 20th number too  
+// Math.trunc coded because of removing decimals given by *20.................
+//  *20 give its boundry number only to 19.9999999999 and just by adding 1 to code give its to 20th number too  
 
 document.querySelector('.check').addEventListener( 'click', function(){
  const guess=Number (document.querySelector('.guess').value)
@@ -30,5 +31,11 @@ console.log(guess, typeof guess)
 
 if(!guess){
   document.querySelector('.message').textContent='🚑No Number'
+} else if (guess ===secretNumber){
+  document.querySelector('.message').textContent='Yeah!!You Got The Answer🤾‍♂️🤾‍♀️' 
+} else if (guess > secretNumber){
+  document.querySelector('.message').textContent='AHH too high 🎃'
+} else if (guess < secretNumber){
+  document.querySelector('.message').textContent='FISSS too low👓'
 }
 });
