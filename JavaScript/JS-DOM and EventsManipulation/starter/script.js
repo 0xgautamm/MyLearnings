@@ -19,14 +19,15 @@
 
 const secretNumber= Math.trunc(Math.random()*20)+1
 document.querySelector('.number').textContent= secretNumber;
+let score= 20;
 
 // Math.trunc coded because of removing decimals given by *20.................
-//  *20 give its boundry number only to 19.9999999999 and just by adding 1 to code give its to 20th number too  
+//  20 give its boundry number only to 19.9999999999 and just by adding 1 to code give its to 20th number too  
 
 document.querySelector('.check').addEventListener( 'click', function(){
  const guess=Number (document.querySelector('.guess').value)
 
-console.log(guess, typeof guess)
+console.log(guess , typeof guess)
 
 
 if(!guess){
@@ -34,8 +35,21 @@ if(!guess){
 } else if (guess ===secretNumber){
   document.querySelector('.message').textContent='Yeah!!You Got The Answer🤾‍♂️🤾‍♀️' 
 } else if (guess > secretNumber){
-  document.querySelector('.message').textContent='AHH too high 🎃'
+ 
+  if(score>0){ document.querySelector('.message').textContent='AHH too high 🎃'
+  score--
+  document.querySelector('.score').textContent=score;}
+  
+  else  document.querySelector('.message').textContent='You LoST the game BITCH'
+  
+
 } else if (guess < secretNumber){
-  document.querySelector('.message').textContent='FISSS too low👓'
+if(score>0) { document.querySelector('.message').textContent='FISSS too low👓'
+score--
+  document.querySelector('.score').textContent=score;}
+  
+  else  document.querySelector('.message').textContent='You LoST the game BITCH'
+  
+
 }
 });
