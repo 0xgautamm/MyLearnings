@@ -29,27 +29,36 @@ document.querySelector('.check').addEventListener( 'click', function(){
 
 console.log(guess , typeof guess)
 
-
+// when there is no input
 if(!guess){
   document.querySelector('.message').textContent='🚑No Number'
-} else if (guess ===secretNumber){
+} 
+// when the input is correct
+else if (guess ===secretNumber){
   document.querySelector('.message').textContent='Yeah!!You Got The Answer🤾‍♂️🤾‍♀️' 
-} else if (guess > secretNumber){
- 
-  if(score>0){ document.querySelector('.message').textContent='AHH too high 🎃'
+
+  document.querySelector('body').style.backgroundColor =  '#60b347';
+  
+  document.querySelector('.number').style.width = '35rem';
+
+
+// when the guess is too high
+
+}else if (guess > secretNumber){
+ if(score>0){ document.querySelector('.message').textContent='AHH too high 🎃'
   score--
   document.querySelector('.score').textContent=score;}
   
   else  document.querySelector('.message').textContent='You LoST the game BITCH'
-  
+  } 
+// when the guess is too low
 
-} else if (guess < secretNumber){
+else if (guess < secretNumber){
 if(score>0) { document.querySelector('.message').textContent='FISSS too low👓'
 score--
   document.querySelector('.score').textContent=score;}
   
   else  document.querySelector('.message').textContent='You LoST the game BITCH'
-  
-
 }
 });
+
