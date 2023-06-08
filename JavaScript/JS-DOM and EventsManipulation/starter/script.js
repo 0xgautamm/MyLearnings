@@ -17,8 +17,7 @@
 // EventListerner =: any action done on the page is called an Event like moving mouse, clicking button, key press
 //                       and EventListerner is reacting to certain events happened on screen 
 
-const secretNumber= Math.trunc(Math.random()*20)+1
-document.querySelector('.number').textContent= secretNumber;
+let secretNumber= Math.trunc(Math.random()*20)+1
 let score= 20;
 
 // Math.trunc coded because of removing decimals given by *20.................
@@ -39,6 +38,9 @@ else if (guess ===secretNumber){
 
   document.querySelector('body').style.backgroundColor =  '#134242';
   
+  document.querySelector('.number').textContent= secretNumber;
+
+
   document.querySelector('.number').style.width = '35rem';
 
 
@@ -62,3 +64,19 @@ score--
 }
 });
 
+// CODING CHALLENGE-01
+
+document.querySelector('.again').addEventListener('click', function(){
+    score=20;
+    secretNumber= Math.trunc(Math.random()*20)+1;
+
+document.querySelector('.message').textContent='Start Guessing...';
+document.querySelector('.score').textContent=score;
+document.querySelector('.number').textContent='?';
+document.querySelector('.guess').value='';
+
+document.querySelector('body').style.backgroundColor =  '#212';
+document.querySelector('.number').style.width = '15rem';
+
+
+})
