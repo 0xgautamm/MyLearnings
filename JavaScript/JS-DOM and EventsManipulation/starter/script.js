@@ -37,7 +37,7 @@ if(!guess){
 else if (guess ===secretNumber){
   document.querySelector('.message').textContent='Yeah!!You Got The Answer🤾‍♂️🤾‍♀️' 
 
-  document.querySelector('body').style.backgroundColor =  '#60b347';
+  document.querySelector('body').style.backgroundColor =  '#134242';
   
   document.querySelector('.number').style.width = '35rem';
 
