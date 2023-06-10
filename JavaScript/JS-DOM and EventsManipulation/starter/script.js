@@ -20,6 +20,11 @@
 let secretNumber= Math.trunc(Math.random()*20)+1
 let score= 20;
 let highscore=0;
+
+const displayMessage=function(message){
+  document.querySelector('.message').textContent= message;
+}
+
 // Math.trunc coded because of removing decimals given by *20.................
 //  20 give its boundry number only to 19.9999999999 and just by adding 1 to code give its to 20th number too  
 
@@ -30,11 +35,14 @@ console.log(guess , typeof guess)
 
 // when there is no input
 if(!guess){
-  document.querySelector('.message').textContent='🚑No Number'
+  // document.querySelector('.message').textContent='🚑No Number'
+   displayMessage('🚑No Number');
+
 } 
 // when the input is correct
 else if (guess ===secretNumber){
-  document.querySelector('.message').textContent='Yeah!!You Got The Answer🤾‍♂️🤾‍♀️' 
+  // document.querySelector('.message').textContent='Yeah!!You Got The Answer🤾‍♂️🤾‍♀️' 
+  displayMessage('Yeah!!You Got The Answer🤾‍♂️🤾‍♀️');
 
   document.querySelector('body').style.backgroundColor =  '#134242';
   
@@ -50,11 +58,12 @@ else if (guess ===secretNumber){
   // when the guess is wrong
 } else if(guess !== secretNumber) {
   if(score>0){
-     document.querySelector('.message').textContent=
-     guess > secretNumber?'AHH too high 🎃': 'FISSS too low👓'
+    //  document.querySelector('.message').textContent=
+    //  guess > secretNumber?'AHH too high 🎃': 'FISSS too low👓'
+    displayMessage( guess > secretNumber?'AHH too high 🎃': 'FISSS too low👓')
   score--
   document.querySelector('.score').textContent=score;}
-  
+   
   else  document.querySelector('.message').textContent='You LoST the game BITCH'
 }  
 
@@ -84,7 +93,8 @@ document.querySelector('.again').addEventListener('click', function(){
     score=20;
     secretNumber= Math.trunc(Math.random()*20)+1;
 
-document.querySelector('.message').textContent='Start Guessing...';
+// document.querySelector('.message').textContent='Start Guessing...';
+displayMessage('Start Guessing...')
 document.querySelector('.score').textContent=score;
 
 document.querySelector('.number').textContent='?';
