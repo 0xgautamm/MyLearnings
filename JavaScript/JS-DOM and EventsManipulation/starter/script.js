@@ -48,8 +48,10 @@ else if (guess ===secretNumber){
   
   document.querySelector('.number').textContent= secretNumber;
 
+
   document.querySelector('.number').style.width = '35rem';
-  
+
+
   if (score>highscore){
      highscore=score;
     document.querySelector('.highscore').textContent=highscore;
