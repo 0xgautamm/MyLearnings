@@ -25,7 +25,7 @@ const closeModal= function(){
 btnCloseModal.addEventListener('click',closeModal)
 overlay.addEventListener('click',closeModal)
 
-document.addEventListener('keydown', function(){
-  
-  console.log('A Key was Pressed Successfully')
+document.addEventListener('keydown', function(e){
+  // console.log('A Key was Pressed Successfully')
+  console.log(e.key);
 })
