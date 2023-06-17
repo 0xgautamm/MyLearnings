@@ -32,10 +32,9 @@ document.addEventListener('keydown', function(e){
   console.log(e.key);
   // console.log('Escape key was pressed dont know who pressed the key bitch');
   
-  if(e.key === 'Escape') {
-    if (!modal.classList.contains('hidden')){
-      closeModal();
-}
- } 
+  if(e.key === 'Escape' && !modal.classList.contains('hidden')) 
+    {
+      closeModal();}
+       
 });
 
