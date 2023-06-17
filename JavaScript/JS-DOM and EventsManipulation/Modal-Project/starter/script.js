@@ -27,7 +27,12 @@ overlay.addEventListener('click',closeModal)
 
 
 document.addEventListener('keydown', function(e){
-fucntion can be set to any random value i.e e,t,b,m,a, any.........and then log in the console with .key to get the pressed word into the console and 'A Key was Pressed Successfully' is for when any key presed the number of time pressed is print on 'A Key was Pressed Successfully'in console...
+// fucntion can be set to any random value i.e e,t,b,m,a, any.........and then log in the console with .key to get the pressed word into the console and 'A Key was Pressed Successfully' is for when any key presed the number of time pressed is print on 'A Key was Pressed Successfully'in console...
   // console.log('A Key was Pressed Successfully')
   console.log(e.key);
-})
+  
+  if(e.key === 'Escape') 
+  console.log('Escape key was pressed dont know who pressed the key bitch');
+
+});
+
