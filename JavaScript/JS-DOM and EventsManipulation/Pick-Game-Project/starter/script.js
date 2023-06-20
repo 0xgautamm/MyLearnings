@@ -1,5 +1,7 @@
 const score0El = document.querySelector('#score--0');
 const  score01El = document.getElementById('score--1')
+const current0El = document.getElementById('current--0')
+const current01El = document.getElementById('current--1')
 const diceEl = document.querySelector('.dice');
 const btnNew = document.querySelector('.btn--new');
 const btnRoll = document.querySelector('.btn--roll');
@@ -24,8 +26,8 @@ diceEl.src= `dice-${dice}.png`
  if(dice !== 1){
     // if dice is not equal to 1, then add score to current score
   currentScore= currentScore=dice
-  currentScore += dice .....it is similar to above one
-
+  // currentScore += dice .....it is similar to above one
+  current0El.textContent=currentScore
 
  } else{
   //  switch to 2nd Player
