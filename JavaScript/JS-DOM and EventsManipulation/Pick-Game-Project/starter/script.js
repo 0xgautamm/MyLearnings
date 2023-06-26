@@ -41,8 +41,8 @@ diceEl.src= `dice-${dice}.png`
 
 activePlayer = activePlayer===1?0:0
 currentScore= 0;
-playerEl0.classList.toggle('player--active')
-playerEl01.classList.toggle('player--active') 
+playerEl0.classList.toggle('player--active');
+playerEl01.classList.toggle('player--active'); 
 
 }
 
